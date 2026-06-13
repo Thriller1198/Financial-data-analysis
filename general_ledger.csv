@@ -1,0 +1,779 @@
+je_number,posting_date,account_code,account_name,account_type,debit_amount,credit_amount,description,posted_by,approval_status
+JE01000,2023-01-28,5100,Salaries and Wages,Expense,458365.61,0.0,Monthly payroll,jsmith,Approved
+JE01000,2023-01-28,2001,Accounts Payable,Liability,0.0,458365.61,Monthly payroll offset,jsmith,Approved
+JE01001,2023-01-28,5200,Rent Expense,Expense,38500.0,0.0,Monthly rent - V010,avanwyk,Approved
+JE01001,2023-01-28,2001,Accounts Payable,Liability,0.0,38500.0,Monthly rent offset,avanwyk,Approved
+JE01002,2023-01-28,1100,Accounts Receivable,Asset,1470012.31,0.0,Monthly revenue accrual,sys_batch,Approved
+JE01002,2023-01-28,4001,Revenue - Product Sales,Revenue,0.0,1215006.45,Monthly product revenue,sys_batch,Approved
+JE01002,2023-01-28,4100,Revenue - Service Fees,Revenue,0.0,255005.86,Monthly service revenue,sys_batch,Approved
+JE01003,2023-01-28,5001,Cost of Goods Sold,Expense,695373.8,0.0,Monthly COGS,sys_batch,Approved
+JE01003,2023-01-28,1001,Cash and Cash Equivalents,Asset,0.0,695373.8,COGS cash offset,sys_batch,Approved
+JE01004,2023-01-28,5700,Depreciation Expense,Expense,12500.0,0.0,Monthly depreciation,mkhumalo,Approved
+JE01004,2023-01-28,1600,Accumulated Depreciation,Asset,0.0,12500.0,Monthly depreciation offset,mkhumalo,Approved
+JE01005,2023-02-28,5100,Salaries and Wages,Expense,464188.27,0.0,Monthly payroll,jsmith,Approved
+JE01005,2023-02-28,2001,Accounts Payable,Liability,0.0,464188.27,Monthly payroll offset,jsmith,Approved
+JE01006,2023-02-28,5200,Rent Expense,Expense,38500.0,0.0,Monthly rent - V010,avanwyk,Approved
+JE01006,2023-02-28,2001,Accounts Payable,Liability,0.0,38500.0,Monthly rent offset,avanwyk,Approved
+JE01007,2023-02-28,1100,Accounts Receivable,Asset,1984455.5999999999,0.0,Monthly revenue accrual,sys_batch,Approved
+JE01007,2023-02-28,4001,Revenue - Product Sales,Revenue,0.0,1606019.69,Monthly product revenue,sys_batch,Approved
+JE01007,2023-02-28,4100,Revenue - Service Fees,Revenue,0.0,378435.91,Monthly service revenue,sys_batch,Approved
+JE01008,2023-02-28,5001,Cost of Goods Sold,Expense,897273.38,0.0,Monthly COGS,sys_batch,Approved
+JE01008,2023-02-28,1001,Cash and Cash Equivalents,Asset,0.0,897273.38,COGS cash offset,sys_batch,Approved
+JE01009,2023-02-28,5700,Depreciation Expense,Expense,12500.0,0.0,Monthly depreciation,mkhumalo,Approved
+JE01009,2023-02-28,1600,Accumulated Depreciation,Asset,0.0,12500.0,Monthly depreciation offset,mkhumalo,Approved
+JE01010,2023-03-28,5100,Salaries and Wages,Expense,445315.31,0.0,Monthly payroll,jsmith,Approved
+JE01010,2023-03-28,2001,Accounts Payable,Liability,0.0,445315.31,Monthly payroll offset,jsmith,Approved
+JE01011,2023-03-28,5200,Rent Expense,Expense,38500.0,0.0,Monthly rent - V010,avanwyk,Approved
+JE01011,2023-03-28,2001,Accounts Payable,Liability,0.0,38500.0,Monthly rent offset,avanwyk,Approved
+JE01012,2023-03-28,1100,Accounts Receivable,Asset,1461605.9200000002,0.0,Monthly revenue accrual,sys_batch,Approved
+JE01012,2023-03-28,4001,Revenue - Product Sales,Revenue,0.0,1217878.33,Monthly product revenue,sys_batch,Approved
+JE01012,2023-03-28,4100,Revenue - Service Fees,Revenue,0.0,243727.59,Monthly service revenue,sys_batch,Approved
+JE01013,2023-03-28,5001,Cost of Goods Sold,Expense,731379.21,0.0,Monthly COGS,sys_batch,Approved
+JE01013,2023-03-28,1001,Cash and Cash Equivalents,Asset,0.0,731379.21,COGS cash offset,sys_batch,Approved
+JE01014,2023-03-28,5700,Depreciation Expense,Expense,12500.0,0.0,Monthly depreciation,mkhumalo,Approved
+JE01014,2023-03-28,1600,Accumulated Depreciation,Asset,0.0,12500.0,Monthly depreciation offset,mkhumalo,Approved
+JE01015,2023-04-28,5100,Salaries and Wages,Expense,421592.16,0.0,Monthly payroll,jsmith,Approved
+JE01015,2023-04-28,2001,Accounts Payable,Liability,0.0,421592.16,Monthly payroll offset,jsmith,Approved
+JE01016,2023-04-28,5200,Rent Expense,Expense,38500.0,0.0,Monthly rent - V010,avanwyk,Approved
+JE01016,2023-04-28,2001,Accounts Payable,Liability,0.0,38500.0,Monthly rent offset,avanwyk,Approved
+JE01017,2023-04-28,1100,Accounts Receivable,Asset,1649279.48,0.0,Monthly revenue accrual,sys_batch,Approved
+JE01017,2023-04-28,4001,Revenue - Product Sales,Revenue,0.0,1319302.59,Monthly product revenue,sys_batch,Approved
+JE01017,2023-04-28,4100,Revenue - Service Fees,Revenue,0.0,329976.89,Monthly service revenue,sys_batch,Approved
+JE01018,2023-04-28,5001,Cost of Goods Sold,Expense,797510.7,0.0,Monthly COGS,sys_batch,Approved
+JE01018,2023-04-28,1001,Cash and Cash Equivalents,Asset,0.0,797510.7,COGS cash offset,sys_batch,Approved
+JE01019,2023-04-28,5700,Depreciation Expense,Expense,12500.0,0.0,Monthly depreciation,mkhumalo,Approved
+JE01019,2023-04-28,1600,Accumulated Depreciation,Asset,0.0,12500.0,Monthly depreciation offset,mkhumalo,Approved
+JE01020,2023-05-28,5100,Salaries and Wages,Expense,433226.44,0.0,Monthly payroll,jsmith,Approved
+JE01020,2023-05-28,2001,Accounts Payable,Liability,0.0,433226.44,Monthly payroll offset,jsmith,Approved
+JE01021,2023-05-28,5200,Rent Expense,Expense,38500.0,0.0,Monthly rent - V010,avanwyk,Approved
+JE01021,2023-05-28,2001,Accounts Payable,Liability,0.0,38500.0,Monthly rent offset,avanwyk,Approved
+JE01022,2023-05-28,1100,Accounts Receivable,Asset,1915445.5,0.0,Monthly revenue accrual,sys_batch,Approved
+JE01022,2023-05-28,4001,Revenue - Product Sales,Revenue,0.0,1553559.41,Monthly product revenue,sys_batch,Approved
+JE01022,2023-05-28,4100,Revenue - Service Fees,Revenue,0.0,361886.09,Monthly service revenue,sys_batch,Approved
+JE01023,2023-05-28,5001,Cost of Goods Sold,Expense,855467.3,0.0,Monthly COGS,sys_batch,Approved
+JE01023,2023-05-28,1001,Cash and Cash Equivalents,Asset,0.0,855467.3,COGS cash offset,sys_batch,Approved
+JE01024,2023-05-28,5700,Depreciation Expense,Expense,12500.0,0.0,Monthly depreciation,mkhumalo,Approved
+JE01024,2023-05-28,1600,Accumulated Depreciation,Asset,0.0,12500.0,Monthly depreciation offset,mkhumalo,Approved
+JE01025,2023-06-28,5100,Salaries and Wages,Expense,468349.16,0.0,Monthly payroll,jsmith,Approved
+JE01025,2023-06-28,2001,Accounts Payable,Liability,0.0,468349.16,Monthly payroll offset,jsmith,Approved
+JE01026,2023-06-28,5200,Rent Expense,Expense,38500.0,0.0,Monthly rent - V010,avanwyk,Approved
+JE01026,2023-06-28,2001,Accounts Payable,Liability,0.0,38500.0,Monthly rent offset,avanwyk,Approved
+JE01027,2023-06-28,1100,Accounts Receivable,Asset,1886933.7399999998,0.0,Monthly revenue accrual,sys_batch,Approved
+JE01027,2023-06-28,4001,Revenue - Product Sales,Revenue,0.0,1618883.64,Monthly product revenue,sys_batch,Approved
+JE01027,2023-06-28,4100,Revenue - Service Fees,Revenue,0.0,268050.1,Monthly service revenue,sys_batch,Approved
+JE01028,2023-06-28,5001,Cost of Goods Sold,Expense,915556.32,0.0,Monthly COGS,sys_batch,Approved
+JE01028,2023-06-28,1001,Cash and Cash Equivalents,Asset,0.0,915556.32,COGS cash offset,sys_batch,Approved
+JE01029,2023-06-28,5700,Depreciation Expense,Expense,12500.0,0.0,Monthly depreciation,mkhumalo,Approved
+JE01029,2023-06-28,1600,Accumulated Depreciation,Asset,0.0,12500.0,Monthly depreciation offset,mkhumalo,Approved
+JE01030,2023-07-28,5100,Salaries and Wages,Expense,477432.78,0.0,Monthly payroll,jsmith,Approved
+JE01030,2023-07-28,2001,Accounts Payable,Liability,0.0,477432.78,Monthly payroll offset,jsmith,Approved
+JE01031,2023-07-28,5200,Rent Expense,Expense,38500.0,0.0,Monthly rent - V010,avanwyk,Approved
+JE01031,2023-07-28,2001,Accounts Payable,Liability,0.0,38500.0,Monthly rent offset,avanwyk,Approved
+JE01032,2023-07-28,1100,Accounts Receivable,Asset,1620505.9,0.0,Monthly revenue accrual,sys_batch,Approved
+JE01032,2023-07-28,4001,Revenue - Product Sales,Revenue,0.0,1401956.73,Monthly product revenue,sys_batch,Approved
+JE01032,2023-07-28,4100,Revenue - Service Fees,Revenue,0.0,218549.17,Monthly service revenue,sys_batch,Approved
+JE01033,2023-07-28,5001,Cost of Goods Sold,Expense,784635.42,0.0,Monthly COGS,sys_batch,Approved
+JE01033,2023-07-28,1001,Cash and Cash Equivalents,Asset,0.0,784635.42,COGS cash offset,sys_batch,Approved
+JE01034,2023-07-28,5700,Depreciation Expense,Expense,12500.0,0.0,Monthly depreciation,mkhumalo,Approved
+JE01034,2023-07-28,1600,Accumulated Depreciation,Asset,0.0,12500.0,Monthly depreciation offset,mkhumalo,Approved
+JE01035,2023-08-28,5100,Salaries and Wages,Expense,470849.66,0.0,Monthly payroll,jsmith,Approved
+JE01035,2023-08-28,2001,Accounts Payable,Liability,0.0,470849.66,Monthly payroll offset,jsmith,Approved
+JE01036,2023-08-28,5200,Rent Expense,Expense,38500.0,0.0,Monthly rent - V010,avanwyk,Approved
+JE01036,2023-08-28,2001,Accounts Payable,Liability,0.0,38500.0,Monthly rent offset,avanwyk,Approved
+JE01037,2023-08-28,1100,Accounts Receivable,Asset,1923661.27,0.0,Monthly revenue accrual,sys_batch,Approved
+JE01037,2023-08-28,4001,Revenue - Product Sales,Revenue,0.0,1562235.62,Monthly product revenue,sys_batch,Approved
+JE01037,2023-08-28,4100,Revenue - Service Fees,Revenue,0.0,361425.65,Monthly service revenue,sys_batch,Approved
+JE01038,2023-08-28,5001,Cost of Goods Sold,Expense,973230.89,0.0,Monthly COGS,sys_batch,Approved
+JE01038,2023-08-28,1001,Cash and Cash Equivalents,Asset,0.0,973230.89,COGS cash offset,sys_batch,Approved
+JE01039,2023-08-28,5700,Depreciation Expense,Expense,12500.0,0.0,Monthly depreciation,mkhumalo,Approved
+JE01039,2023-08-28,1600,Accumulated Depreciation,Asset,0.0,12500.0,Monthly depreciation offset,mkhumalo,Approved
+JE01040,2023-09-28,5100,Salaries and Wages,Expense,452173.69,0.0,Monthly payroll,jsmith,Approved
+JE01040,2023-09-28,2001,Accounts Payable,Liability,0.0,452173.69,Monthly payroll offset,jsmith,Approved
+JE01041,2023-09-28,5200,Rent Expense,Expense,38500.0,0.0,Monthly rent - V010,avanwyk,Approved
+JE01041,2023-09-28,2001,Accounts Payable,Liability,0.0,38500.0,Monthly rent offset,avanwyk,Approved
+JE01042,2023-09-28,1100,Accounts Receivable,Asset,2059576.3399999999,0.0,Monthly revenue accrual,sys_batch,Approved
+JE01042,2023-09-28,4001,Revenue - Product Sales,Revenue,0.0,1783869.46,Monthly product revenue,sys_batch,Approved
+JE01042,2023-09-28,4100,Revenue - Service Fees,Revenue,0.0,275706.88,Monthly service revenue,sys_batch,Approved
+JE01043,2023-09-28,5001,Cost of Goods Sold,Expense,1079605.05,0.0,Monthly COGS,sys_batch,Approved
+JE01043,2023-09-28,1001,Cash and Cash Equivalents,Asset,0.0,1079605.05,COGS cash offset,sys_batch,Approved
+JE01044,2023-09-28,5700,Depreciation Expense,Expense,12500.0,0.0,Monthly depreciation,mkhumalo,Approved
+JE01044,2023-09-28,1600,Accumulated Depreciation,Asset,0.0,12500.0,Monthly depreciation offset,mkhumalo,Approved
+JE01045,2023-10-28,5100,Salaries and Wages,Expense,469764.28,0.0,Monthly payroll,jsmith,Approved
+JE01045,2023-10-28,2001,Accounts Payable,Liability,0.0,469764.28,Monthly payroll offset,jsmith,Approved
+JE01046,2023-10-28,5200,Rent Expense,Expense,38500.0,0.0,Monthly rent - V010,avanwyk,Approved
+JE01046,2023-10-28,2001,Accounts Payable,Liability,0.0,38500.0,Monthly rent offset,avanwyk,Approved
+JE01047,2023-10-28,1100,Accounts Receivable,Asset,1943453.23,0.0,Monthly revenue accrual,sys_batch,Approved
+JE01047,2023-10-28,4001,Revenue - Product Sales,Revenue,0.0,1571111.85,Monthly product revenue,sys_batch,Approved
+JE01047,2023-10-28,4100,Revenue - Service Fees,Revenue,0.0,372341.38,Monthly service revenue,sys_batch,Approved
+JE01048,2023-10-28,5001,Cost of Goods Sold,Expense,954820.0,0.0,Monthly COGS,sys_batch,Approved
+JE01048,2023-10-28,1001,Cash and Cash Equivalents,Asset,0.0,954820.0,COGS cash offset,sys_batch,Approved
+JE01049,2023-10-28,5700,Depreciation Expense,Expense,12500.0,0.0,Monthly depreciation,mkhumalo,Approved
+JE01049,2023-10-28,1600,Accumulated Depreciation,Asset,0.0,12500.0,Monthly depreciation offset,mkhumalo,Approved
+JE01050,2023-11-28,5100,Salaries and Wages,Expense,462274.31,0.0,Monthly payroll,jsmith,Approved
+JE01050,2023-11-28,2001,Accounts Payable,Liability,0.0,462274.31,Monthly payroll offset,jsmith,Approved
+JE01051,2023-11-28,5200,Rent Expense,Expense,38500.0,0.0,Monthly rent - V010,avanwyk,Approved
+JE01051,2023-11-28,2001,Accounts Payable,Liability,0.0,38500.0,Monthly rent offset,avanwyk,Approved
+JE01052,2023-11-28,1100,Accounts Receivable,Asset,1473074.2899999998,0.0,Monthly revenue accrual,sys_batch,Approved
+JE01052,2023-11-28,4001,Revenue - Product Sales,Revenue,0.0,1227494.63,Monthly product revenue,sys_batch,Approved
+JE01052,2023-11-28,4100,Revenue - Service Fees,Revenue,0.0,245579.66,Monthly service revenue,sys_batch,Approved
+JE01053,2023-11-28,5001,Cost of Goods Sold,Expense,710644.26,0.0,Monthly COGS,sys_batch,Approved
+JE01053,2023-11-28,1001,Cash and Cash Equivalents,Asset,0.0,710644.26,COGS cash offset,sys_batch,Approved
+JE01054,2023-11-28,5700,Depreciation Expense,Expense,12500.0,0.0,Monthly depreciation,mkhumalo,Approved
+JE01054,2023-11-28,1600,Accumulated Depreciation,Asset,0.0,12500.0,Monthly depreciation offset,mkhumalo,Approved
+JE01055,2023-12-28,5100,Salaries and Wages,Expense,424787.52,0.0,Monthly payroll,jsmith,Approved
+JE01055,2023-12-28,2001,Accounts Payable,Liability,0.0,424787.52,Monthly payroll offset,jsmith,Approved
+JE01056,2023-12-28,5200,Rent Expense,Expense,38500.0,0.0,Monthly rent - V010,avanwyk,Approved
+JE01056,2023-12-28,2001,Accounts Payable,Liability,0.0,38500.0,Monthly rent offset,avanwyk,Approved
+JE01057,2023-12-28,1100,Accounts Receivable,Asset,1559874.82,0.0,Monthly revenue accrual,sys_batch,Approved
+JE01057,2023-12-28,4001,Revenue - Product Sales,Revenue,0.0,1339674.53,Monthly product revenue,sys_batch,Approved
+JE01057,2023-12-28,4100,Revenue - Service Fees,Revenue,0.0,220200.29,Monthly service revenue,sys_batch,Approved
+JE01058,2023-12-28,5001,Cost of Goods Sold,Expense,774060.41,0.0,Monthly COGS,sys_batch,Approved
+JE01058,2023-12-28,1001,Cash and Cash Equivalents,Asset,0.0,774060.41,COGS cash offset,sys_batch,Approved
+JE01059,2023-12-28,5700,Depreciation Expense,Expense,12500.0,0.0,Monthly depreciation,mkhumalo,Approved
+JE01059,2023-12-28,1600,Accumulated Depreciation,Asset,0.0,12500.0,Monthly depreciation offset,mkhumalo,Approved
+JE01060,2023-07-01,5500,Professional Fees,Expense,14662.94,0.0,Invoice - V012,lpJonas,Approved
+JE01060,2023-07-01,2001,Accounts Payable,Liability,0.0,14662.94,AP offset - V012,lpJonas,Approved
+JE01061,2023-12-16,5500,Professional Fees,Expense,59952.91,0.0,Invoice - V009,nmokoena,Approved
+JE01061,2023-12-16,2001,Accounts Payable,Liability,0.0,59952.91,AP offset - V009,nmokoena,Approved
+JE01062,2023-03-29,5800,Miscellaneous Expense,Expense,52167.0,0.0,Invoice - V003,nmokoena,Approved
+JE01062,2023-03-29,2001,Accounts Payable,Liability,0.0,52167.0,AP offset - V003,nmokoena,Approved
+JE01063,2023-07-14,5300,Utilities Expense,Expense,14725.81,0.0,Invoice - V008,avanwyk,Approved
+JE01063,2023-07-14,2001,Accounts Payable,Liability,0.0,14725.81,AP offset - V008,avanwyk,Approved
+JE01064,2023-06-16,5001,Cost of Goods Sold,Expense,19447.67,0.0,Invoice - V020,lpJonas,Approved
+JE01064,2023-06-16,2001,Accounts Payable,Liability,0.0,19447.67,AP offset - V020,lpJonas,Approved
+JE01065,2023-06-11,5300,Utilities Expense,Expense,70031.42,0.0,Invoice - V008,avanwyk,Approved
+JE01065,2023-06-11,2001,Accounts Payable,Liability,0.0,70031.42,AP offset - V008,avanwyk,Approved
+JE01066,2023-10-18,5500,Professional Fees,Expense,6559.84,0.0,Invoice - V009,nmokoena,Approved
+JE01066,2023-10-18,2001,Accounts Payable,Liability,0.0,6559.84,AP offset - V009,nmokoena,Approved
+JE01067,2023-09-13,5600,Travel and Entertainment,Expense,18860.63,0.0,Invoice - V011,avanwyk,Approved
+JE01067,2023-09-13,2001,Accounts Payable,Liability,0.0,18860.63,AP offset - V011,avanwyk,Approved
+JE01068,2023-03-13,5500,Professional Fees,Expense,13001.21,0.0,Invoice - V016,lpJonas,Approved
+JE01068,2023-03-13,2001,Accounts Payable,Liability,0.0,13001.21,AP offset - V016,lpJonas,Approved
+JE01069,2023-10-27,5001,Cost of Goods Sold,Expense,46274.09,0.0,Invoice - V020,avanwyk,Approved
+JE01069,2023-10-27,2001,Accounts Payable,Liability,0.0,46274.09,AP offset - V020,avanwyk,Approved
+JE01070,2023-03-12,5001,Cost of Goods Sold,Expense,31407.7,0.0,Invoice - V013,nmokoena,Approved
+JE01070,2023-03-12,2001,Accounts Payable,Liability,0.0,31407.7,AP offset - V013,nmokoena,Approved
+JE01071,2023-01-25,5001,Cost of Goods Sold,Expense,8636.39,0.0,Invoice - V017,lpJonas,Approved
+JE01071,2023-01-25,2001,Accounts Payable,Liability,0.0,8636.39,AP offset - V017,lpJonas,Approved
+JE01072,2023-12-15,5500,Professional Fees,Expense,53705.47,0.0,Invoice - V005,avanwyk,Approved
+JE01072,2023-12-15,2001,Accounts Payable,Liability,0.0,53705.47,AP offset - V005,avanwyk,Approved
+JE01073,2023-11-02,5800,Miscellaneous Expense,Expense,33320.45,0.0,Invoice - V003,avanwyk,Approved
+JE01073,2023-11-02,2001,Accounts Payable,Liability,0.0,33320.45,AP offset - V003,avanwyk,Approved
+JE01074,2023-10-11,5500,Professional Fees,Expense,22118.79,0.0,Invoice - V019,lpJonas,Approved
+JE01074,2023-10-11,2001,Accounts Payable,Liability,0.0,22118.79,AP offset - V019,lpJonas,Approved
+JE01075,2023-10-02,5500,Professional Fees,Expense,58263.67,0.0,Invoice - V004,avanwyk,Approved
+JE01075,2023-10-02,2001,Accounts Payable,Liability,0.0,58263.67,AP offset - V004,avanwyk,Approved
+JE01076,2023-08-11,5600,Travel and Entertainment,Expense,10370.38,0.0,Invoice - V011,lpJonas,Approved
+JE01076,2023-08-11,2001,Accounts Payable,Liability,0.0,10370.38,AP offset - V011,lpJonas,Approved
+JE01077,2023-05-15,5500,Professional Fees,Expense,1272.61,0.0,Invoice - V016,nmokoena,Approved
+JE01077,2023-05-15,2001,Accounts Payable,Liability,0.0,1272.61,AP offset - V016,nmokoena,Approved
+JE01078,2023-02-24,5400,Marketing and Advertising,Expense,43645.26,0.0,Invoice - V006,nmokoena,Approved
+JE01078,2023-02-24,2001,Accounts Payable,Liability,0.0,43645.26,AP offset - V006,nmokoena,Approved
+JE01079,2023-09-17,5200,Rent Expense,Expense,71700.23,0.0,Invoice - V010,nmokoena,Approved
+JE01079,2023-09-17,2001,Accounts Payable,Liability,0.0,71700.23,AP offset - V010,nmokoena,Approved
+JE01080,2023-03-24,5600,Travel and Entertainment,Expense,13838.5,0.0,Invoice - V007,nmokoena,Approved
+JE01080,2023-03-24,2001,Accounts Payable,Liability,0.0,13838.5,AP offset - V007,nmokoena,Approved
+JE01081,2023-11-03,5500,Professional Fees,Expense,78153.45,0.0,Invoice - V019,avanwyk,Approved
+JE01081,2023-11-03,2001,Accounts Payable,Liability,0.0,78153.45,AP offset - V019,avanwyk,Approved
+JE01082,2023-07-05,5001,Cost of Goods Sold,Expense,2636.05,0.0,Invoice - V017,avanwyk,Approved
+JE01082,2023-07-05,2001,Accounts Payable,Liability,0.0,2636.05,AP offset - V017,avanwyk,Approved
+JE01083,2023-10-18,5300,Utilities Expense,Expense,5865.71,0.0,Invoice - V008,lpJonas,Approved
+JE01083,2023-10-18,2001,Accounts Payable,Liability,0.0,5865.71,AP offset - V008,lpJonas,Approved
+JE01084,2023-02-05,5800,Miscellaneous Expense,Expense,62480.24,0.0,Invoice - V003,nmokoena,Approved
+JE01084,2023-02-05,2001,Accounts Payable,Liability,0.0,62480.24,AP offset - V003,nmokoena,Approved
+JE01085,2023-09-01,5500,Professional Fees,Expense,11784.88,0.0,Invoice - V005,nmokoena,Approved
+JE01085,2023-09-01,2001,Accounts Payable,Liability,0.0,11784.88,AP offset - V005,nmokoena,Approved
+JE01086,2023-11-07,5400,Marketing and Advertising,Expense,23264.76,0.0,Invoice - V006,avanwyk,Approved
+JE01086,2023-11-07,2001,Accounts Payable,Liability,0.0,23264.76,AP offset - V006,avanwyk,Approved
+JE01087,2023-12-20,5600,Travel and Entertainment,Expense,79028.73,0.0,Invoice - V007,lpJonas,Approved
+JE01087,2023-12-20,2001,Accounts Payable,Liability,0.0,79028.73,AP offset - V007,lpJonas,Approved
+JE01088,2023-12-10,5200,Rent Expense,Expense,34515.35,0.0,Invoice - V010,nmokoena,Approved
+JE01088,2023-12-10,2001,Accounts Payable,Liability,0.0,34515.35,AP offset - V010,nmokoena,Approved
+JE01089,2023-09-22,5500,Professional Fees,Expense,37800.41,0.0,Invoice - V012,avanwyk,Approved
+JE01089,2023-09-22,2001,Accounts Payable,Liability,0.0,37800.41,AP offset - V012,avanwyk,Approved
+JE01090,2023-02-02,5500,Professional Fees,Expense,21824.07,0.0,Invoice - V004,avanwyk,Approved
+JE01090,2023-02-02,2001,Accounts Payable,Liability,0.0,21824.07,AP offset - V004,avanwyk,Approved
+JE01091,2023-04-28,5800,Miscellaneous Expense,Expense,50417.93,0.0,Invoice - V001,nmokoena,Approved
+JE01091,2023-04-28,2001,Accounts Payable,Liability,0.0,50417.93,AP offset - V001,nmokoena,Approved
+JE01092,2023-12-29,5300,Utilities Expense,Expense,1604.03,0.0,Invoice - V008,nmokoena,Approved
+JE01092,2023-12-29,2001,Accounts Payable,Liability,0.0,1604.03,AP offset - V008,nmokoena,Approved
+JE01093,2023-01-17,5001,Cost of Goods Sold,Expense,20231.11,0.0,Invoice - V002,avanwyk,Approved
+JE01093,2023-01-17,2001,Accounts Payable,Liability,0.0,20231.11,AP offset - V002,avanwyk,Approved
+JE01094,2023-05-23,5800,Miscellaneous Expense,Expense,44189.11,0.0,Invoice - V003,nmokoena,Approved
+JE01094,2023-05-23,2001,Accounts Payable,Liability,0.0,44189.11,AP offset - V003,nmokoena,Approved
+JE01095,2023-03-09,5001,Cost of Goods Sold,Expense,18995.89,0.0,Invoice - V017,nmokoena,Approved
+JE01095,2023-03-09,2001,Accounts Payable,Liability,0.0,18995.89,AP offset - V017,nmokoena,Approved
+JE01096,2023-08-31,5001,Cost of Goods Sold,Expense,21411.77,0.0,Invoice - V017,avanwyk,Approved
+JE01096,2023-08-31,2001,Accounts Payable,Liability,0.0,21411.77,AP offset - V017,avanwyk,Approved
+JE01097,2023-12-04,5600,Travel and Entertainment,Expense,8923.37,0.0,Invoice - V007,avanwyk,Approved
+JE01097,2023-12-04,2001,Accounts Payable,Liability,0.0,8923.37,AP offset - V007,avanwyk,Approved
+JE01098,2023-08-28,5500,Professional Fees,Expense,36580.6,0.0,Invoice - V012,nmokoena,Approved
+JE01098,2023-08-28,2001,Accounts Payable,Liability,0.0,36580.6,AP offset - V012,nmokoena,Approved
+JE01099,2023-11-27,5001,Cost of Goods Sold,Expense,57562.62,0.0,Invoice - V002,lpJonas,Approved
+JE01099,2023-11-27,2001,Accounts Payable,Liability,0.0,57562.62,AP offset - V002,lpJonas,Approved
+JE01100,2023-06-23,5001,Cost of Goods Sold,Expense,34820.19,0.0,Invoice - V002,lpJonas,Approved
+JE01100,2023-06-23,2001,Accounts Payable,Liability,0.0,34820.19,AP offset - V002,lpJonas,Approved
+JE01101,2023-10-02,5300,Utilities Expense,Expense,17093.57,0.0,Invoice - V008,avanwyk,Approved
+JE01101,2023-10-02,2001,Accounts Payable,Liability,0.0,17093.57,AP offset - V008,avanwyk,Approved
+JE01102,2023-05-23,5500,Professional Fees,Expense,36438.06,0.0,Invoice - V005,avanwyk,Approved
+JE01102,2023-05-23,2001,Accounts Payable,Liability,0.0,36438.06,AP offset - V005,avanwyk,Approved
+JE01103,2023-02-08,5300,Utilities Expense,Expense,74456.82,0.0,Invoice - V008,avanwyk,Approved
+JE01103,2023-02-08,2001,Accounts Payable,Liability,0.0,74456.82,AP offset - V008,avanwyk,Approved
+JE01104,2023-11-30,5001,Cost of Goods Sold,Expense,9224.33,0.0,Invoice - V020,nmokoena,Approved
+JE01104,2023-11-30,2001,Accounts Payable,Liability,0.0,9224.33,AP offset - V020,nmokoena,Approved
+JE01105,2023-05-02,5800,Miscellaneous Expense,Expense,82395.69,0.0,Invoice - V001,lpJonas,Approved
+JE01105,2023-05-02,2001,Accounts Payable,Liability,0.0,82395.69,AP offset - V001,lpJonas,Approved
+JE01106,2023-04-20,5400,Marketing and Advertising,Expense,41793.85,0.0,Invoice - V015,avanwyk,Approved
+JE01106,2023-04-20,2001,Accounts Payable,Liability,0.0,41793.85,AP offset - V015,avanwyk,Approved
+JE01107,2023-01-02,5001,Cost of Goods Sold,Expense,14829.52,0.0,Invoice - V002,avanwyk,Approved
+JE01107,2023-01-02,2001,Accounts Payable,Liability,0.0,14829.52,AP offset - V002,avanwyk,Approved
+JE01108,2023-08-21,5500,Professional Fees,Expense,78827.52,0.0,Invoice - V009,avanwyk,Approved
+JE01108,2023-08-21,2001,Accounts Payable,Liability,0.0,78827.52,AP offset - V009,avanwyk,Approved
+JE01109,2023-10-12,5400,Marketing and Advertising,Expense,59513.69,0.0,Invoice - V015,nmokoena,Approved
+JE01109,2023-10-12,2001,Accounts Payable,Liability,0.0,59513.69,AP offset - V015,nmokoena,Approved
+JE01110,2023-06-01,5001,Cost of Goods Sold,Expense,14002.93,0.0,Invoice - V017,lpJonas,Approved
+JE01110,2023-06-01,2001,Accounts Payable,Liability,0.0,14002.93,AP offset - V017,lpJonas,Approved
+JE01111,2023-10-05,5001,Cost of Goods Sold,Expense,49651.14,0.0,Invoice - V002,lpJonas,Approved
+JE01111,2023-10-05,2001,Accounts Payable,Liability,0.0,49651.14,AP offset - V002,lpJonas,Approved
+JE01112,2023-10-27,5600,Travel and Entertainment,Expense,5801.88,0.0,Invoice - V011,avanwyk,Approved
+JE01112,2023-10-27,2001,Accounts Payable,Liability,0.0,5801.88,AP offset - V011,avanwyk,Approved
+JE01113,2023-09-29,5500,Professional Fees,Expense,78228.52,0.0,Invoice - V019,lpJonas,Approved
+JE01113,2023-09-29,2001,Accounts Payable,Liability,0.0,78228.52,AP offset - V019,lpJonas,Approved
+JE01114,2023-02-11,5001,Cost of Goods Sold,Expense,81705.43,0.0,Invoice - V002,lpJonas,Approved
+JE01114,2023-02-11,2001,Accounts Payable,Liability,0.0,81705.43,AP offset - V002,lpJonas,Approved
+JE01115,2023-12-12,5800,Miscellaneous Expense,Expense,50982.95,0.0,Invoice - V003,lpJonas,Approved
+JE01115,2023-12-12,2001,Accounts Payable,Liability,0.0,50982.95,AP offset - V003,lpJonas,Approved
+JE01116,2023-10-19,5001,Cost of Goods Sold,Expense,11070.48,0.0,Invoice - V013,lpJonas,Approved
+JE01116,2023-10-19,2001,Accounts Payable,Liability,0.0,11070.48,AP offset - V013,lpJonas,Approved
+JE01117,2023-08-03,5001,Cost of Goods Sold,Expense,53028.05,0.0,Invoice - V002,nmokoena,Approved
+JE01117,2023-08-03,2001,Accounts Payable,Liability,0.0,53028.05,AP offset - V002,nmokoena,Approved
+JE01118,2023-05-14,5500,Professional Fees,Expense,27575.07,0.0,Invoice - V019,lpJonas,Approved
+JE01118,2023-05-14,2001,Accounts Payable,Liability,0.0,27575.07,AP offset - V019,lpJonas,Approved
+JE01119,2023-07-22,5600,Travel and Entertainment,Expense,21049.62,0.0,Invoice - V011,lpJonas,Approved
+JE01119,2023-07-22,2001,Accounts Payable,Liability,0.0,21049.62,AP offset - V011,lpJonas,Approved
+JE01120,2023-02-07,5200,Rent Expense,Expense,39406.86,0.0,Invoice - V010,lpJonas,Approved
+JE01120,2023-02-07,2001,Accounts Payable,Liability,0.0,39406.86,AP offset - V010,lpJonas,Approved
+JE01121,2023-10-16,5500,Professional Fees,Expense,53177.38,0.0,Invoice - V016,lpJonas,Approved
+JE01121,2023-10-16,2001,Accounts Payable,Liability,0.0,53177.38,AP offset - V016,lpJonas,Approved
+JE01122,2023-09-17,5800,Miscellaneous Expense,Expense,46161.29,0.0,Invoice - V003,avanwyk,Approved
+JE01122,2023-09-17,2001,Accounts Payable,Liability,0.0,46161.29,AP offset - V003,avanwyk,Approved
+JE01123,2023-02-05,5500,Professional Fees,Expense,79393.79,0.0,Invoice - V005,lpJonas,Approved
+JE01123,2023-02-05,2001,Accounts Payable,Liability,0.0,79393.79,AP offset - V005,lpJonas,Approved
+JE01124,2023-08-13,5500,Professional Fees,Expense,24938.94,0.0,Invoice - V012,nmokoena,Approved
+JE01124,2023-08-13,2001,Accounts Payable,Liability,0.0,24938.94,AP offset - V012,nmokoena,Approved
+JE01125,2023-12-01,5200,Rent Expense,Expense,52380.93,0.0,Invoice - V010,nmokoena,Approved
+JE01125,2023-12-01,2001,Accounts Payable,Liability,0.0,52380.93,AP offset - V010,nmokoena,Approved
+JE01126,2023-10-11,5800,Miscellaneous Expense,Expense,57100.51,0.0,Invoice - V001,avanwyk,Approved
+JE01126,2023-10-11,2001,Accounts Payable,Liability,0.0,57100.51,AP offset - V001,avanwyk,Approved
+JE01127,2023-03-10,5500,Professional Fees,Expense,79870.12,0.0,Invoice - V004,avanwyk,Approved
+JE01127,2023-03-10,2001,Accounts Payable,Liability,0.0,79870.12,AP offset - V004,avanwyk,Approved
+JE01128,2023-10-11,5500,Professional Fees,Expense,75735.87,0.0,Invoice - V004,lpJonas,Approved
+JE01128,2023-10-11,2001,Accounts Payable,Liability,0.0,75735.87,AP offset - V004,lpJonas,Approved
+JE01129,2023-04-18,5500,Professional Fees,Expense,24667.53,0.0,Invoice - V009,nmokoena,Approved
+JE01129,2023-04-18,2001,Accounts Payable,Liability,0.0,24667.53,AP offset - V009,nmokoena,Approved
+JE01130,2023-11-21,5600,Travel and Entertainment,Expense,18102.17,0.0,Invoice - V011,avanwyk,Approved
+JE01130,2023-11-21,2001,Accounts Payable,Liability,0.0,18102.17,AP offset - V011,avanwyk,Approved
+JE01131,2023-01-27,5500,Professional Fees,Expense,42036.68,0.0,Invoice - V019,lpJonas,Approved
+JE01131,2023-01-27,2001,Accounts Payable,Liability,0.0,42036.68,AP offset - V019,lpJonas,Approved
+JE01132,2023-01-23,5400,Marketing and Advertising,Expense,70665.24,0.0,Invoice - V015,lpJonas,Approved
+JE01132,2023-01-23,2001,Accounts Payable,Liability,0.0,70665.24,AP offset - V015,lpJonas,Approved
+JE01133,2023-11-23,5600,Travel and Entertainment,Expense,65774.01,0.0,Invoice - V011,avanwyk,Approved
+JE01133,2023-11-23,2001,Accounts Payable,Liability,0.0,65774.01,AP offset - V011,avanwyk,Approved
+JE01134,2023-10-10,5400,Marketing and Advertising,Expense,63263.4,0.0,Invoice - V006,nmokoena,Approved
+JE01134,2023-10-10,2001,Accounts Payable,Liability,0.0,63263.4,AP offset - V006,nmokoena,Approved
+JE01135,2023-02-27,5400,Marketing and Advertising,Expense,48116.18,0.0,Invoice - V015,lpJonas,Approved
+JE01135,2023-02-27,2001,Accounts Payable,Liability,0.0,48116.18,AP offset - V015,lpJonas,Approved
+JE01136,2023-07-09,5500,Professional Fees,Expense,46829.58,0.0,Invoice - V005,nmokoena,Approved
+JE01136,2023-07-09,2001,Accounts Payable,Liability,0.0,46829.58,AP offset - V005,nmokoena,Approved
+JE01137,2023-03-07,5001,Cost of Goods Sold,Expense,13439.88,0.0,Invoice - V020,lpJonas,Approved
+JE01137,2023-03-07,2001,Accounts Payable,Liability,0.0,13439.88,AP offset - V020,lpJonas,Approved
+JE01138,2023-01-21,5200,Rent Expense,Expense,31630.73,0.0,Invoice - V010,avanwyk,Approved
+JE01138,2023-01-21,2001,Accounts Payable,Liability,0.0,31630.73,AP offset - V010,avanwyk,Approved
+JE01139,2023-12-08,5600,Travel and Entertainment,Expense,58293.6,0.0,Invoice - V007,lpJonas,Approved
+JE01139,2023-12-08,2001,Accounts Payable,Liability,0.0,58293.6,AP offset - V007,lpJonas,Approved
+JE01140,2023-07-28,5500,Professional Fees,Expense,66529.76,0.0,Invoice - V012,nmokoena,Approved
+JE01140,2023-07-28,2001,Accounts Payable,Liability,0.0,66529.76,AP offset - V012,nmokoena,Approved
+JE01141,2023-05-02,5500,Professional Fees,Expense,78764.16,0.0,Invoice - V005,lpJonas,Approved
+JE01141,2023-05-02,2001,Accounts Payable,Liability,0.0,78764.16,AP offset - V005,lpJonas,Approved
+JE01142,2023-01-13,5400,Marketing and Advertising,Expense,75038.96,0.0,Invoice - V006,lpJonas,Approved
+JE01142,2023-01-13,2001,Accounts Payable,Liability,0.0,75038.96,AP offset - V006,lpJonas,Approved
+JE01143,2023-07-30,5600,Travel and Entertainment,Expense,66720.47,0.0,Invoice - V011,nmokoena,Approved
+JE01143,2023-07-30,2001,Accounts Payable,Liability,0.0,66720.47,AP offset - V011,nmokoena,Approved
+JE01144,2023-12-26,5300,Utilities Expense,Expense,23411.68,0.0,Invoice - V008,lpJonas,Approved
+JE01144,2023-12-26,2001,Accounts Payable,Liability,0.0,23411.68,AP offset - V008,lpJonas,Approved
+JE01145,2023-08-29,5001,Cost of Goods Sold,Expense,74262.01,0.0,Invoice - V013,lpJonas,Approved
+JE01145,2023-08-29,2001,Accounts Payable,Liability,0.0,74262.01,AP offset - V013,lpJonas,Approved
+JE01146,2023-08-24,5600,Travel and Entertainment,Expense,69593.27,0.0,Invoice - V007,avanwyk,Approved
+JE01146,2023-08-24,2001,Accounts Payable,Liability,0.0,69593.27,AP offset - V007,avanwyk,Approved
+JE01147,2023-04-27,5200,Rent Expense,Expense,69925.06,0.0,Invoice - V010,lpJonas,Approved
+JE01147,2023-04-27,2001,Accounts Payable,Liability,0.0,69925.06,AP offset - V010,lpJonas,Approved
+JE01148,2023-07-24,5800,Miscellaneous Expense,Expense,56442.79,0.0,Invoice - V001,avanwyk,Approved
+JE01148,2023-07-24,2001,Accounts Payable,Liability,0.0,56442.79,AP offset - V001,avanwyk,Approved
+JE01149,2023-05-23,5500,Professional Fees,Expense,73605.65,0.0,Invoice - V009,avanwyk,Approved
+JE01149,2023-05-23,2001,Accounts Payable,Liability,0.0,73605.65,AP offset - V009,avanwyk,Approved
+JE01150,2023-10-02,5500,Professional Fees,Expense,34572.98,0.0,Invoice - V019,avanwyk,Approved
+JE01150,2023-10-02,2001,Accounts Payable,Liability,0.0,34572.98,AP offset - V019,avanwyk,Approved
+JE01151,2023-05-14,5800,Miscellaneous Expense,Expense,10688.71,0.0,Invoice - V001,lpJonas,Approved
+JE01151,2023-05-14,2001,Accounts Payable,Liability,0.0,10688.71,AP offset - V001,lpJonas,Approved
+JE01152,2023-11-02,5500,Professional Fees,Expense,4213.6,0.0,Invoice - V009,avanwyk,Approved
+JE01152,2023-11-02,2001,Accounts Payable,Liability,0.0,4213.6,AP offset - V009,avanwyk,Approved
+JE01153,2023-06-10,5500,Professional Fees,Expense,62197.79,0.0,Invoice - V012,avanwyk,Approved
+JE01153,2023-06-10,2001,Accounts Payable,Liability,0.0,62197.79,AP offset - V012,avanwyk,Approved
+JE01154,2023-10-23,5500,Professional Fees,Expense,10714.25,0.0,Invoice - V019,lpJonas,Approved
+JE01154,2023-10-23,2001,Accounts Payable,Liability,0.0,10714.25,AP offset - V019,lpJonas,Approved
+JE01155,2023-08-12,5500,Professional Fees,Expense,4728.47,0.0,Invoice - V009,lpJonas,Approved
+JE01155,2023-08-12,2001,Accounts Payable,Liability,0.0,4728.47,AP offset - V009,lpJonas,Approved
+JE01156,2023-10-03,5500,Professional Fees,Expense,78748.31,0.0,Invoice - V019,nmokoena,Approved
+JE01156,2023-10-03,2001,Accounts Payable,Liability,0.0,78748.31,AP offset - V019,nmokoena,Approved
+JE01157,2023-02-05,5600,Travel and Entertainment,Expense,31594.6,0.0,Invoice - V007,nmokoena,Approved
+JE01157,2023-02-05,2001,Accounts Payable,Liability,0.0,31594.6,AP offset - V007,nmokoena,Approved
+JE01158,2023-12-06,5600,Travel and Entertainment,Expense,53345.05,0.0,Invoice - V011,lpJonas,Approved
+JE01158,2023-12-06,2001,Accounts Payable,Liability,0.0,53345.05,AP offset - V011,lpJonas,Approved
+JE01159,2023-12-08,5200,Rent Expense,Expense,43598.29,0.0,Invoice - V010,avanwyk,Approved
+JE01159,2023-12-08,2001,Accounts Payable,Liability,0.0,43598.29,AP offset - V010,avanwyk,Approved
+JE01160,2023-06-01,5600,Travel and Entertainment,Expense,34801.63,0.0,Invoice - V011,nmokoena,Approved
+JE01160,2023-06-01,2001,Accounts Payable,Liability,0.0,34801.63,AP offset - V011,nmokoena,Approved
+JE01161,2023-12-07,5500,Professional Fees,Expense,17114.57,0.0,Invoice - V005,avanwyk,Approved
+JE01161,2023-12-07,2001,Accounts Payable,Liability,0.0,17114.57,AP offset - V005,avanwyk,Approved
+JE01162,2023-06-04,5400,Marketing and Advertising,Expense,52703.25,0.0,Invoice - V006,avanwyk,Approved
+JE01162,2023-06-04,2001,Accounts Payable,Liability,0.0,52703.25,AP offset - V006,avanwyk,Approved
+JE01163,2023-06-05,5001,Cost of Goods Sold,Expense,71032.91,0.0,Invoice - V020,avanwyk,Approved
+JE01163,2023-06-05,2001,Accounts Payable,Liability,0.0,71032.91,AP offset - V020,avanwyk,Approved
+JE01164,2023-10-24,5600,Travel and Entertainment,Expense,37110.6,0.0,Invoice - V007,nmokoena,Approved
+JE01164,2023-10-24,2001,Accounts Payable,Liability,0.0,37110.6,AP offset - V007,nmokoena,Approved
+JE01165,2023-08-15,5600,Travel and Entertainment,Expense,40059.01,0.0,Invoice - V011,nmokoena,Approved
+JE01165,2023-08-15,2001,Accounts Payable,Liability,0.0,40059.01,AP offset - V011,nmokoena,Approved
+JE01166,2023-03-28,5600,Travel and Entertainment,Expense,43938.62,0.0,Invoice - V007,nmokoena,Approved
+JE01166,2023-03-28,2001,Accounts Payable,Liability,0.0,43938.62,AP offset - V007,nmokoena,Approved
+JE01167,2023-12-06,5800,Miscellaneous Expense,Expense,24838.06,0.0,Invoice - V003,nmokoena,Approved
+JE01167,2023-12-06,2001,Accounts Payable,Liability,0.0,24838.06,AP offset - V003,nmokoena,Approved
+JE01168,2023-05-01,5600,Travel and Entertainment,Expense,8844.52,0.0,Invoice - V011,nmokoena,Approved
+JE01168,2023-05-01,2001,Accounts Payable,Liability,0.0,8844.52,AP offset - V011,nmokoena,Approved
+JE01169,2023-04-12,5200,Rent Expense,Expense,19869.82,0.0,Invoice - V010,lpJonas,Approved
+JE01169,2023-04-12,2001,Accounts Payable,Liability,0.0,19869.82,AP offset - V010,lpJonas,Approved
+JE01170,2023-09-01,5800,Miscellaneous Expense,Expense,4881.95,0.0,Invoice - V001,nmokoena,Approved
+JE01170,2023-09-01,2001,Accounts Payable,Liability,0.0,4881.95,AP offset - V001,nmokoena,Approved
+JE01171,2023-11-19,5800,Miscellaneous Expense,Expense,39254.96,0.0,Invoice - V003,nmokoena,Approved
+JE01171,2023-11-19,2001,Accounts Payable,Liability,0.0,39254.96,AP offset - V003,nmokoena,Approved
+JE01172,2023-07-16,5600,Travel and Entertainment,Expense,61341.06,0.0,Invoice - V007,avanwyk,Approved
+JE01172,2023-07-16,2001,Accounts Payable,Liability,0.0,61341.06,AP offset - V007,avanwyk,Approved
+JE01173,2023-12-02,5001,Cost of Goods Sold,Expense,21494.69,0.0,Invoice - V013,nmokoena,Approved
+JE01173,2023-12-02,2001,Accounts Payable,Liability,0.0,21494.69,AP offset - V013,nmokoena,Approved
+JE01174,2023-02-24,5800,Miscellaneous Expense,Expense,75983.43,0.0,Invoice - V001,avanwyk,Approved
+JE01174,2023-02-24,2001,Accounts Payable,Liability,0.0,75983.43,AP offset - V001,avanwyk,Approved
+JE01175,2023-12-23,5300,Utilities Expense,Expense,15774.48,0.0,Invoice - V008,nmokoena,Approved
+JE01175,2023-12-23,2001,Accounts Payable,Liability,0.0,15774.48,AP offset - V008,nmokoena,Approved
+JE01176,2023-05-08,5500,Professional Fees,Expense,5218.34,0.0,Invoice - V016,lpJonas,Approved
+JE01176,2023-05-08,2001,Accounts Payable,Liability,0.0,5218.34,AP offset - V016,lpJonas,Approved
+JE01177,2023-08-26,5500,Professional Fees,Expense,12200.48,0.0,Invoice - V016,nmokoena,Approved
+JE01177,2023-08-26,2001,Accounts Payable,Liability,0.0,12200.48,AP offset - V016,nmokoena,Approved
+JE01178,2023-11-01,5500,Professional Fees,Expense,83982.97,0.0,Invoice - V019,avanwyk,Approved
+JE01178,2023-11-01,2001,Accounts Payable,Liability,0.0,83982.97,AP offset - V019,avanwyk,Approved
+JE01179,2023-09-16,5500,Professional Fees,Expense,52462.8,0.0,Invoice - V016,avanwyk,Approved
+JE01179,2023-09-16,2001,Accounts Payable,Liability,0.0,52462.8,AP offset - V016,avanwyk,Approved
+JE01180,2023-03-23,5001,Cost of Goods Sold,Expense,38456.74,0.0,Invoice - V020,nmokoena,Approved
+JE01180,2023-03-23,2001,Accounts Payable,Liability,0.0,38456.74,AP offset - V020,nmokoena,Approved
+JE01181,2023-05-07,5001,Cost of Goods Sold,Expense,38805.86,0.0,Invoice - V017,nmokoena,Approved
+JE01181,2023-05-07,2001,Accounts Payable,Liability,0.0,38805.86,AP offset - V017,nmokoena,Approved
+JE01182,2023-09-24,5500,Professional Fees,Expense,65328.35,0.0,Invoice - V009,avanwyk,Approved
+JE01182,2023-09-24,2001,Accounts Payable,Liability,0.0,65328.35,AP offset - V009,avanwyk,Approved
+JE01183,2023-02-09,5300,Utilities Expense,Expense,24066.19,0.0,Invoice - V008,nmokoena,Approved
+JE01183,2023-02-09,2001,Accounts Payable,Liability,0.0,24066.19,AP offset - V008,nmokoena,Approved
+JE01184,2023-06-21,5200,Rent Expense,Expense,20697.46,0.0,Invoice - V010,avanwyk,Approved
+JE01184,2023-06-21,2001,Accounts Payable,Liability,0.0,20697.46,AP offset - V010,avanwyk,Approved
+JE01185,2023-03-19,5001,Cost of Goods Sold,Expense,7768.52,0.0,Invoice - V020,lpJonas,Approved
+JE01185,2023-03-19,2001,Accounts Payable,Liability,0.0,7768.52,AP offset - V020,lpJonas,Approved
+JE01186,2023-12-28,5001,Cost of Goods Sold,Expense,59291.78,0.0,Invoice - V013,lpJonas,Approved
+JE01186,2023-12-28,2001,Accounts Payable,Liability,0.0,59291.78,AP offset - V013,lpJonas,Approved
+JE01187,2023-06-19,5800,Miscellaneous Expense,Expense,35848.9,0.0,Invoice - V003,nmokoena,Approved
+JE01187,2023-06-19,2001,Accounts Payable,Liability,0.0,35848.9,AP offset - V003,nmokoena,Approved
+JE01188,2023-04-16,5500,Professional Fees,Expense,35925.04,0.0,Invoice - V016,avanwyk,Approved
+JE01188,2023-04-16,2001,Accounts Payable,Liability,0.0,35925.04,AP offset - V016,avanwyk,Approved
+JE01189,2023-10-27,5001,Cost of Goods Sold,Expense,77006.43,0.0,Invoice - V013,nmokoena,Approved
+JE01189,2023-10-27,2001,Accounts Payable,Liability,0.0,77006.43,AP offset - V013,nmokoena,Approved
+JE01190,2023-10-22,5800,Miscellaneous Expense,Expense,72965.49,0.0,Invoice - V001,avanwyk,Approved
+JE01190,2023-10-22,2001,Accounts Payable,Liability,0.0,72965.49,AP offset - V001,avanwyk,Approved
+JE01191,2023-06-30,5001,Cost of Goods Sold,Expense,1495.27,0.0,Invoice - V017,avanwyk,Approved
+JE01191,2023-06-30,2001,Accounts Payable,Liability,0.0,1495.27,AP offset - V017,avanwyk,Approved
+JE01192,2023-08-03,5001,Cost of Goods Sold,Expense,72689.63,0.0,Invoice - V013,nmokoena,Approved
+JE01192,2023-08-03,2001,Accounts Payable,Liability,0.0,72689.63,AP offset - V013,nmokoena,Approved
+JE01193,2023-04-23,5001,Cost of Goods Sold,Expense,68188.93,0.0,Invoice - V020,avanwyk,Approved
+JE01193,2023-04-23,2001,Accounts Payable,Liability,0.0,68188.93,AP offset - V020,avanwyk,Approved
+JE01194,2023-09-06,5300,Utilities Expense,Expense,23926.57,0.0,Invoice - V008,lpJonas,Approved
+JE01194,2023-09-06,2001,Accounts Payable,Liability,0.0,23926.57,AP offset - V008,lpJonas,Approved
+JE01195,2023-12-14,5001,Cost of Goods Sold,Expense,29234.88,0.0,Invoice - V013,avanwyk,Approved
+JE01195,2023-12-14,2001,Accounts Payable,Liability,0.0,29234.88,AP offset - V013,avanwyk,Approved
+JE01196,2023-03-07,5400,Marketing and Advertising,Expense,71602.48,0.0,Invoice - V006,nmokoena,Approved
+JE01196,2023-03-07,2001,Accounts Payable,Liability,0.0,71602.48,AP offset - V006,nmokoena,Approved
+JE01197,2023-07-21,5001,Cost of Goods Sold,Expense,3265.18,0.0,Invoice - V020,nmokoena,Approved
+JE01197,2023-07-21,2001,Accounts Payable,Liability,0.0,3265.18,AP offset - V020,nmokoena,Approved
+JE01198,2023-08-08,5800,Miscellaneous Expense,Expense,8051.59,0.0,Invoice - V001,lpJonas,Approved
+JE01198,2023-08-08,2001,Accounts Payable,Liability,0.0,8051.59,AP offset - V001,lpJonas,Approved
+JE01199,2023-05-14,5500,Professional Fees,Expense,16265.24,0.0,Invoice - V016,avanwyk,Approved
+JE01199,2023-05-14,2001,Accounts Payable,Liability,0.0,16265.24,AP offset - V016,avanwyk,Approved
+JE01200,2023-06-17,5600,Travel and Entertainment,Expense,18779.46,0.0,Invoice - V011,avanwyk,Approved
+JE01200,2023-06-17,2001,Accounts Payable,Liability,0.0,18779.46,AP offset - V011,avanwyk,Approved
+JE01201,2023-08-04,5001,Cost of Goods Sold,Expense,24373.56,0.0,Invoice - V013,avanwyk,Approved
+JE01201,2023-08-04,2001,Accounts Payable,Liability,0.0,24373.56,AP offset - V013,avanwyk,Approved
+JE01202,2023-10-04,5800,Miscellaneous Expense,Expense,40505.77,0.0,Invoice - V003,lpJonas,Approved
+JE01202,2023-10-04,2001,Accounts Payable,Liability,0.0,40505.77,AP offset - V003,lpJonas,Approved
+JE01203,2023-02-05,5500,Professional Fees,Expense,19834.66,0.0,Invoice - V012,nmokoena,Approved
+JE01203,2023-02-05,2001,Accounts Payable,Liability,0.0,19834.66,AP offset - V012,nmokoena,Approved
+JE01204,2023-05-07,5001,Cost of Goods Sold,Expense,64355.59,0.0,Invoice - V002,lpJonas,Approved
+JE01204,2023-05-07,2001,Accounts Payable,Liability,0.0,64355.59,AP offset - V002,lpJonas,Approved
+JE01205,2023-05-03,5800,Miscellaneous Expense,Expense,53192.2,0.0,Invoice - V001,lpJonas,Approved
+JE01205,2023-05-03,2001,Accounts Payable,Liability,0.0,53192.2,AP offset - V001,lpJonas,Approved
+JE01206,2023-10-16,5001,Cost of Goods Sold,Expense,57234.54,0.0,Invoice - V017,lpJonas,Approved
+JE01206,2023-10-16,2001,Accounts Payable,Liability,0.0,57234.54,AP offset - V017,lpJonas,Approved
+JE01207,2023-07-08,5500,Professional Fees,Expense,59755.06,0.0,Invoice - V016,lpJonas,Approved
+JE01207,2023-07-08,2001,Accounts Payable,Liability,0.0,59755.06,AP offset - V016,lpJonas,Approved
+JE01208,2023-03-25,5500,Professional Fees,Expense,66334.52,0.0,Invoice - V004,avanwyk,Approved
+JE01208,2023-03-25,2001,Accounts Payable,Liability,0.0,66334.52,AP offset - V004,avanwyk,Approved
+JE01209,2023-06-09,5500,Professional Fees,Expense,49609.52,0.0,Invoice - V004,nmokoena,Approved
+JE01209,2023-06-09,2001,Accounts Payable,Liability,0.0,49609.52,AP offset - V004,nmokoena,Approved
+JE01210,2023-04-12,5001,Cost of Goods Sold,Expense,34318.97,0.0,Invoice - V013,lpJonas,Approved
+JE01210,2023-04-12,2001,Accounts Payable,Liability,0.0,34318.97,AP offset - V013,lpJonas,Approved
+JE01211,2023-06-04,5300,Utilities Expense,Expense,9559.71,0.0,Invoice - V008,nmokoena,Approved
+JE01211,2023-06-04,2001,Accounts Payable,Liability,0.0,9559.71,AP offset - V008,nmokoena,Approved
+JE01212,2023-10-17,5500,Professional Fees,Expense,67883.09,0.0,Invoice - V004,lpJonas,Approved
+JE01212,2023-10-17,2001,Accounts Payable,Liability,0.0,67883.09,AP offset - V004,lpJonas,Approved
+JE01213,2023-12-05,5500,Professional Fees,Expense,45750.6,0.0,Invoice - V012,avanwyk,Approved
+JE01213,2023-12-05,2001,Accounts Payable,Liability,0.0,45750.6,AP offset - V012,avanwyk,Approved
+JE01214,2023-06-24,5800,Miscellaneous Expense,Expense,43500.71,0.0,Invoice - V003,lpJonas,Approved
+JE01214,2023-06-24,2001,Accounts Payable,Liability,0.0,43500.71,AP offset - V003,lpJonas,Approved
+JE01215,2023-02-24,5400,Marketing and Advertising,Expense,70075.8,0.0,Invoice - V015,avanwyk,Approved
+JE01215,2023-02-24,2001,Accounts Payable,Liability,0.0,70075.8,AP offset - V015,avanwyk,Approved
+JE01216,2023-08-24,5500,Professional Fees,Expense,54389.15,0.0,Invoice - V012,nmokoena,Approved
+JE01216,2023-08-24,2001,Accounts Payable,Liability,0.0,54389.15,AP offset - V012,nmokoena,Approved
+JE01217,2023-09-25,5500,Professional Fees,Expense,37580.92,0.0,Invoice - V005,nmokoena,Approved
+JE01217,2023-09-25,2001,Accounts Payable,Liability,0.0,37580.92,AP offset - V005,nmokoena,Approved
+JE01218,2023-10-03,5500,Professional Fees,Expense,52736.64,0.0,Invoice - V009,avanwyk,Approved
+JE01218,2023-10-03,2001,Accounts Payable,Liability,0.0,52736.64,AP offset - V009,avanwyk,Approved
+JE01219,2023-10-31,5500,Professional Fees,Expense,37588.26,0.0,Invoice - V016,avanwyk,Approved
+JE01219,2023-10-31,2001,Accounts Payable,Liability,0.0,37588.26,AP offset - V016,avanwyk,Approved
+JE01220,2023-02-14,5600,Travel and Entertainment,Expense,72543.91,0.0,Invoice - V011,avanwyk,Approved
+JE01220,2023-02-14,2001,Accounts Payable,Liability,0.0,72543.91,AP offset - V011,avanwyk,Approved
+JE01221,2023-08-26,5500,Professional Fees,Expense,21484.53,0.0,Invoice - V016,nmokoena,Approved
+JE01221,2023-08-26,2001,Accounts Payable,Liability,0.0,21484.53,AP offset - V016,nmokoena,Approved
+JE01222,2023-09-11,5001,Cost of Goods Sold,Expense,29257.32,0.0,Invoice - V013,avanwyk,Approved
+JE01222,2023-09-11,2001,Accounts Payable,Liability,0.0,29257.32,AP offset - V013,avanwyk,Approved
+JE01223,2023-07-01,5400,Marketing and Advertising,Expense,41954.19,0.0,Invoice - V006,avanwyk,Approved
+JE01223,2023-07-01,2001,Accounts Payable,Liability,0.0,41954.19,AP offset - V006,avanwyk,Approved
+JE01224,2023-11-02,5600,Travel and Entertainment,Expense,24491.31,0.0,Invoice - V011,nmokoena,Approved
+JE01224,2023-11-02,2001,Accounts Payable,Liability,0.0,24491.31,AP offset - V011,nmokoena,Approved
+JE01225,2023-09-22,5500,Professional Fees,Expense,47686.45,0.0,Invoice - V009,lpJonas,Approved
+JE01225,2023-09-22,2001,Accounts Payable,Liability,0.0,47686.45,AP offset - V009,lpJonas,Approved
+JE01226,2023-07-28,5800,Miscellaneous Expense,Expense,21273.91,0.0,Invoice - V003,avanwyk,Approved
+JE01226,2023-07-28,2001,Accounts Payable,Liability,0.0,21273.91,AP offset - V003,avanwyk,Approved
+JE01227,2023-12-20,5001,Cost of Goods Sold,Expense,64685.83,0.0,Invoice - V020,avanwyk,Approved
+JE01227,2023-12-20,2001,Accounts Payable,Liability,0.0,64685.83,AP offset - V020,avanwyk,Approved
+JE01228,2023-01-09,5001,Cost of Goods Sold,Expense,38646.66,0.0,Invoice - V017,lpJonas,Approved
+JE01228,2023-01-09,2001,Accounts Payable,Liability,0.0,38646.66,AP offset - V017,lpJonas,Approved
+JE01229,2023-12-21,5200,Rent Expense,Expense,19614.1,0.0,Invoice - V010,lpJonas,Approved
+JE01229,2023-12-21,2001,Accounts Payable,Liability,0.0,19614.1,AP offset - V010,lpJonas,Approved
+JE01230,2023-07-08,5200,Rent Expense,Expense,56772.64,0.0,Invoice - V010,avanwyk,Approved
+JE01230,2023-07-08,2001,Accounts Payable,Liability,0.0,56772.64,AP offset - V010,avanwyk,Approved
+JE01231,2023-08-06,5001,Cost of Goods Sold,Expense,45597.44,0.0,Invoice - V020,nmokoena,Approved
+JE01231,2023-08-06,2001,Accounts Payable,Liability,0.0,45597.44,AP offset - V020,nmokoena,Approved
+JE01232,2023-12-26,5001,Cost of Goods Sold,Expense,28786.47,0.0,Invoice - V020,avanwyk,Approved
+JE01232,2023-12-26,2001,Accounts Payable,Liability,0.0,28786.47,AP offset - V020,avanwyk,Approved
+JE01233,2023-04-29,5500,Professional Fees,Expense,26756.33,0.0,Invoice - V009,lpJonas,Approved
+JE01233,2023-04-29,2001,Accounts Payable,Liability,0.0,26756.33,AP offset - V009,lpJonas,Approved
+JE01234,2023-10-02,5600,Travel and Entertainment,Expense,27506.03,0.0,Invoice - V007,nmokoena,Approved
+JE01234,2023-10-02,2001,Accounts Payable,Liability,0.0,27506.03,AP offset - V007,nmokoena,Approved
+JE01235,2023-09-05,5400,Marketing and Advertising,Expense,17089.44,0.0,Invoice - V006,avanwyk,Approved
+JE01235,2023-09-05,2001,Accounts Payable,Liability,0.0,17089.44,AP offset - V006,avanwyk,Approved
+JE01236,2023-02-21,5500,Professional Fees,Expense,51130.42,0.0,Invoice - V019,lpJonas,Approved
+JE01236,2023-02-21,2001,Accounts Payable,Liability,0.0,51130.42,AP offset - V019,lpJonas,Approved
+JE01237,2023-04-02,5200,Rent Expense,Expense,20108.59,0.0,Invoice - V010,avanwyk,Approved
+JE01237,2023-04-02,2001,Accounts Payable,Liability,0.0,20108.59,AP offset - V010,avanwyk,Approved
+JE01238,2023-03-06,5800,Miscellaneous Expense,Expense,60473.55,0.0,Invoice - V001,avanwyk,Approved
+JE01238,2023-03-06,2001,Accounts Payable,Liability,0.0,60473.55,AP offset - V001,avanwyk,Approved
+JE01239,2023-10-11,5001,Cost of Goods Sold,Expense,82840.77,0.0,Invoice - V002,avanwyk,Approved
+JE01239,2023-10-11,2001,Accounts Payable,Liability,0.0,82840.77,AP offset - V002,avanwyk,Approved
+JE01240,2023-09-09,5500,Professional Fees,Expense,54581.05,0.0,Invoice - V005,lpJonas,Approved
+JE01240,2023-09-09,2001,Accounts Payable,Liability,0.0,54581.05,AP offset - V005,lpJonas,Approved
+JE01241,2023-08-29,5800,Miscellaneous Expense,Expense,49221.39,0.0,Invoice - V001,avanwyk,Approved
+JE01241,2023-08-29,2001,Accounts Payable,Liability,0.0,49221.39,AP offset - V001,avanwyk,Approved
+JE01242,2023-01-27,5500,Professional Fees,Expense,29619.3,0.0,Invoice - V016,avanwyk,Approved
+JE01242,2023-01-27,2001,Accounts Payable,Liability,0.0,29619.3,AP offset - V016,avanwyk,Approved
+JE01243,2023-02-03,5001,Cost of Goods Sold,Expense,10583.32,0.0,Invoice - V017,avanwyk,Approved
+JE01243,2023-02-03,2001,Accounts Payable,Liability,0.0,10583.32,AP offset - V017,avanwyk,Approved
+JE01244,2023-11-19,5001,Cost of Goods Sold,Expense,7222.9,0.0,Invoice - V017,nmokoena,Approved
+JE01244,2023-11-19,2001,Accounts Payable,Liability,0.0,7222.9,AP offset - V017,nmokoena,Approved
+JE01245,2023-10-16,5001,Cost of Goods Sold,Expense,13745.07,0.0,Invoice - V002,avanwyk,Approved
+JE01245,2023-10-16,2001,Accounts Payable,Liability,0.0,13745.07,AP offset - V002,avanwyk,Approved
+JE01246,2023-03-02,5800,Miscellaneous Expense,Expense,84489.12,0.0,Invoice - V003,nmokoena,Approved
+JE01246,2023-03-02,2001,Accounts Payable,Liability,0.0,84489.12,AP offset - V003,nmokoena,Approved
+JE01247,2023-11-13,5400,Marketing and Advertising,Expense,51930.68,0.0,Invoice - V015,lpJonas,Approved
+JE01247,2023-11-13,2001,Accounts Payable,Liability,0.0,51930.68,AP offset - V015,lpJonas,Approved
+JE01248,2023-08-15,5500,Professional Fees,Expense,32951.75,0.0,Invoice - V019,avanwyk,Approved
+JE01248,2023-08-15,2001,Accounts Payable,Liability,0.0,32951.75,AP offset - V019,avanwyk,Approved
+JE01249,2023-11-14,5400,Marketing and Advertising,Expense,26651.94,0.0,Invoice - V015,lpJonas,Approved
+JE01249,2023-11-14,2001,Accounts Payable,Liability,0.0,26651.94,AP offset - V015,lpJonas,Approved
+JE01250,2023-04-17,5500,Professional Fees,Expense,80597.58,0.0,Invoice - V004,nmokoena,Approved
+JE01250,2023-04-17,2001,Accounts Payable,Liability,0.0,80597.58,AP offset - V004,nmokoena,Approved
+JE01251,2023-02-11,5600,Travel and Entertainment,Expense,23230.27,0.0,Invoice - V007,lpJonas,Approved
+JE01251,2023-02-11,2001,Accounts Payable,Liability,0.0,23230.27,AP offset - V007,lpJonas,Approved
+JE01252,2023-02-08,5300,Utilities Expense,Expense,15600.34,0.0,Invoice - V008,lpJonas,Approved
+JE01252,2023-02-08,2001,Accounts Payable,Liability,0.0,15600.34,AP offset - V008,lpJonas,Approved
+JE01253,2023-12-19,5800,Miscellaneous Expense,Expense,35315.48,0.0,Invoice - V001,nmokoena,Approved
+JE01253,2023-12-19,2001,Accounts Payable,Liability,0.0,35315.48,AP offset - V001,nmokoena,Approved
+JE01254,2023-04-29,5001,Cost of Goods Sold,Expense,25465.78,0.0,Invoice - V017,avanwyk,Approved
+JE01254,2023-04-29,2001,Accounts Payable,Liability,0.0,25465.78,AP offset - V017,avanwyk,Approved
+JE01255,2023-08-21,5200,Rent Expense,Expense,60050.95,0.0,Invoice - V010,lpJonas,Approved
+JE01255,2023-08-21,2001,Accounts Payable,Liability,0.0,60050.95,AP offset - V010,lpJonas,Approved
+JE01256,2023-11-17,5300,Utilities Expense,Expense,78608.53,0.0,Invoice - V008,nmokoena,Approved
+JE01256,2023-11-17,2001,Accounts Payable,Liability,0.0,78608.53,AP offset - V008,nmokoena,Approved
+JE01257,2023-10-06,5600,Travel and Entertainment,Expense,36711.67,0.0,Invoice - V007,lpJonas,Approved
+JE01257,2023-10-06,2001,Accounts Payable,Liability,0.0,36711.67,AP offset - V007,lpJonas,Approved
+JE01258,2023-03-14,5500,Professional Fees,Expense,77306.56,0.0,Invoice - V005,lpJonas,Approved
+JE01258,2023-03-14,2001,Accounts Payable,Liability,0.0,77306.56,AP offset - V005,lpJonas,Approved
+JE01259,2023-06-07,5001,Cost of Goods Sold,Expense,14937.51,0.0,Invoice - V002,nmokoena,Approved
+JE01259,2023-06-07,2001,Accounts Payable,Liability,0.0,14937.51,AP offset - V002,nmokoena,Approved
+JE01260,2023-08-28,5200,Rent Expense,Expense,37888.89,0.0,Invoice - V010,nmokoena,Approved
+JE01260,2023-08-28,2001,Accounts Payable,Liability,0.0,37888.89,AP offset - V010,nmokoena,Approved
+JE01261,2023-05-20,5200,Rent Expense,Expense,59777.63,0.0,Invoice - V010,nmokoena,Approved
+JE01261,2023-05-20,2001,Accounts Payable,Liability,0.0,59777.63,AP offset - V010,nmokoena,Approved
+JE01262,2023-02-11,5001,Cost of Goods Sold,Expense,42478.8,0.0,Invoice - V020,nmokoena,Approved
+JE01262,2023-02-11,2001,Accounts Payable,Liability,0.0,42478.8,AP offset - V020,nmokoena,Approved
+JE01263,2023-06-15,5001,Cost of Goods Sold,Expense,75711.52,0.0,Invoice - V002,nmokoena,Approved
+JE01263,2023-06-15,2001,Accounts Payable,Liability,0.0,75711.52,AP offset - V002,nmokoena,Approved
+JE01264,2023-04-28,5500,Professional Fees,Expense,3172.65,0.0,Invoice - V009,nmokoena,Approved
+JE01264,2023-04-28,2001,Accounts Payable,Liability,0.0,3172.65,AP offset - V009,nmokoena,Approved
+JE01265,2023-12-11,5800,Miscellaneous Expense,Expense,84964.08,0.0,Invoice - V001,avanwyk,Approved
+JE01265,2023-12-11,2001,Accounts Payable,Liability,0.0,84964.08,AP offset - V001,avanwyk,Approved
+JE01266,2023-03-31,5001,Cost of Goods Sold,Expense,65101.16,0.0,Invoice - V002,avanwyk,Approved
+JE01266,2023-03-31,2001,Accounts Payable,Liability,0.0,65101.16,AP offset - V002,avanwyk,Approved
+JE01267,2023-05-23,5500,Professional Fees,Expense,55726.8,0.0,Invoice - V019,lpJonas,Approved
+JE01267,2023-05-23,2001,Accounts Payable,Liability,0.0,55726.8,AP offset - V019,lpJonas,Approved
+JE01268,2023-09-09,5400,Marketing and Advertising,Expense,54321.92,0.0,Invoice - V015,lpJonas,Approved
+JE01268,2023-09-09,2001,Accounts Payable,Liability,0.0,54321.92,AP offset - V015,lpJonas,Approved
+JE01269,2023-06-20,5001,Cost of Goods Sold,Expense,30228.73,0.0,Invoice - V017,avanwyk,Approved
+JE01269,2023-06-20,2001,Accounts Payable,Liability,0.0,30228.73,AP offset - V017,avanwyk,Approved
+JE01270,2023-06-18,5500,Professional Fees,Expense,73049.58,0.0,Invoice - V004,avanwyk,Approved
+JE01270,2023-06-18,2001,Accounts Payable,Liability,0.0,73049.58,AP offset - V004,avanwyk,Approved
+JE01271,2023-07-25,5001,Cost of Goods Sold,Expense,25210.29,0.0,Invoice - V017,nmokoena,Approved
+JE01271,2023-07-25,2001,Accounts Payable,Liability,0.0,25210.29,AP offset - V017,nmokoena,Approved
+JE01272,2023-06-11,5001,Cost of Goods Sold,Expense,39205.38,0.0,Invoice - V002,avanwyk,Approved
+JE01272,2023-06-11,2001,Accounts Payable,Liability,0.0,39205.38,AP offset - V002,avanwyk,Approved
+JE01273,2023-07-26,5600,Travel and Entertainment,Expense,10737.41,0.0,Invoice - V011,nmokoena,Approved
+JE01273,2023-07-26,2001,Accounts Payable,Liability,0.0,10737.41,AP offset - V011,nmokoena,Approved
+JE01274,2023-10-05,5800,Miscellaneous Expense,Expense,56243.47,0.0,Invoice - V001,avanwyk,Approved
+JE01274,2023-10-05,2001,Accounts Payable,Liability,0.0,56243.47,AP offset - V001,avanwyk,Approved
+JE01275,2023-09-23,5400,Marketing and Advertising,Expense,5553.14,0.0,Invoice - V015,avanwyk,Approved
+JE01275,2023-09-23,2001,Accounts Payable,Liability,0.0,5553.14,AP offset - V015,avanwyk,Approved
+JE01276,2023-01-27,5001,Cost of Goods Sold,Expense,53534.33,0.0,Invoice - V017,lpJonas,Approved
+JE01276,2023-01-27,2001,Accounts Payable,Liability,0.0,53534.33,AP offset - V017,lpJonas,Approved
+JE01277,2023-05-28,5500,Professional Fees,Expense,47134.45,0.0,Invoice - V009,avanwyk,Approved
+JE01277,2023-05-28,2001,Accounts Payable,Liability,0.0,47134.45,AP offset - V009,avanwyk,Approved
+JE01278,2023-11-19,5001,Cost of Goods Sold,Expense,11199.79,0.0,Invoice - V017,nmokoena,Approved
+JE01278,2023-11-19,2001,Accounts Payable,Liability,0.0,11199.79,AP offset - V017,nmokoena,Approved
+JE01279,2023-06-09,5300,Utilities Expense,Expense,60621.76,0.0,Invoice - V008,nmokoena,Approved
+JE01279,2023-06-09,2001,Accounts Payable,Liability,0.0,60621.76,AP offset - V008,nmokoena,Approved
+JE01280,2023-02-17,5800,Miscellaneous Expense,Expense,47389.12,0.0,Invoice - V001,lpJonas,Approved
+JE01280,2023-02-17,2001,Accounts Payable,Liability,0.0,47389.12,AP offset - V001,lpJonas,Approved
+JE01281,2023-03-02,5500,Professional Fees,Expense,39761.62,0.0,Invoice - V004,nmokoena,Approved
+JE01281,2023-03-02,2001,Accounts Payable,Liability,0.0,39761.62,AP offset - V004,nmokoena,Approved
+JE01282,2023-05-30,5500,Professional Fees,Expense,42863.54,0.0,Invoice - V005,nmokoena,Approved
+JE01282,2023-05-30,2001,Accounts Payable,Liability,0.0,42863.54,AP offset - V005,nmokoena,Approved
+JE01283,2023-09-05,5500,Professional Fees,Expense,35901.19,0.0,Invoice - V009,avanwyk,Approved
+JE01283,2023-09-05,2001,Accounts Payable,Liability,0.0,35901.19,AP offset - V009,avanwyk,Approved
+JE01284,2023-03-16,5300,Utilities Expense,Expense,39370.06,0.0,Invoice - V008,avanwyk,Approved
+JE01284,2023-03-16,2001,Accounts Payable,Liability,0.0,39370.06,AP offset - V008,avanwyk,Approved
+JE01285,2023-09-18,5600,Travel and Entertainment,Expense,78436.92,0.0,Invoice - V007,nmokoena,Approved
+JE01285,2023-09-18,2001,Accounts Payable,Liability,0.0,78436.92,AP offset - V007,nmokoena,Approved
+JE01286,2023-05-22,5500,Professional Fees,Expense,73578.26,0.0,Invoice - V005,avanwyk,Approved
+JE01286,2023-05-22,2001,Accounts Payable,Liability,0.0,73578.26,AP offset - V005,avanwyk,Approved
+JE01287,2023-09-17,5600,Travel and Entertainment,Expense,79476.87,0.0,Invoice - V011,avanwyk,Approved
+JE01287,2023-09-17,2001,Accounts Payable,Liability,0.0,79476.87,AP offset - V011,avanwyk,Approved
+JE01288,2023-06-02,5800,Miscellaneous Expense,Expense,24758.47,0.0,Invoice - V001,nmokoena,Approved
+JE01288,2023-06-02,2001,Accounts Payable,Liability,0.0,24758.47,AP offset - V001,nmokoena,Approved
+JE01289,2023-08-17,5001,Cost of Goods Sold,Expense,73681.89,0.0,Invoice - V017,nmokoena,Approved
+JE01289,2023-08-17,2001,Accounts Payable,Liability,0.0,73681.89,AP offset - V017,nmokoena,Approved
+JE01290,2023-10-10,5001,Cost of Goods Sold,Expense,29990.41,0.0,Invoice - V017,nmokoena,Approved
+JE01290,2023-10-10,2001,Accounts Payable,Liability,0.0,29990.41,AP offset - V017,nmokoena,Approved
+JE01291,2023-06-14,5001,Cost of Goods Sold,Expense,39248.95,0.0,Invoice - V013,lpJonas,Approved
+JE01291,2023-06-14,2001,Accounts Payable,Liability,0.0,39248.95,AP offset - V013,lpJonas,Approved
+JE01292,2023-04-30,5300,Utilities Expense,Expense,49031.0,0.0,Invoice - V008,avanwyk,Approved
+JE01292,2023-04-30,2001,Accounts Payable,Liability,0.0,49031.0,AP offset - V008,avanwyk,Approved
+JE01293,2023-08-31,5001,Cost of Goods Sold,Expense,27726.81,0.0,Invoice - V002,nmokoena,Approved
+JE01293,2023-08-31,2001,Accounts Payable,Liability,0.0,27726.81,AP offset - V002,nmokoena,Approved
+JE01294,2023-12-06,5001,Cost of Goods Sold,Expense,33430.62,0.0,Invoice - V013,nmokoena,Approved
+JE01294,2023-12-06,2001,Accounts Payable,Liability,0.0,33430.62,AP offset - V013,nmokoena,Approved
+JE01295,2023-01-19,5500,Professional Fees,Expense,42607.61,0.0,Invoice - V005,lpJonas,Approved
+JE01295,2023-01-19,2001,Accounts Payable,Liability,0.0,42607.61,AP offset - V005,lpJonas,Approved
+JE01296,2023-06-19,5500,Professional Fees,Expense,82089.7,0.0,Invoice - V019,lpJonas,Approved
+JE01296,2023-06-19,2001,Accounts Payable,Liability,0.0,82089.7,AP offset - V019,lpJonas,Approved
+JE01297,2023-08-22,5500,Professional Fees,Expense,9375.78,0.0,Invoice - V016,lpJonas,Approved
+JE01297,2023-08-22,2001,Accounts Payable,Liability,0.0,9375.78,AP offset - V016,lpJonas,Approved
+JE01298,2023-12-02,5500,Professional Fees,Expense,35438.2,0.0,Invoice - V005,lpJonas,Approved
+JE01298,2023-12-02,2001,Accounts Payable,Liability,0.0,35438.2,AP offset - V005,lpJonas,Approved
+JE01299,2023-05-16,5800,Miscellaneous Expense,Expense,40437.21,0.0,Invoice - V003,avanwyk,Approved
+JE01299,2023-05-16,2001,Accounts Payable,Liability,0.0,40437.21,AP offset - V003,avanwyk,Approved
+JE01300,2023-06-18,5001,Cost of Goods Sold,Expense,55586.28,0.0,Invoice - V013,nmokoena,Approved
+JE01300,2023-06-18,2001,Accounts Payable,Liability,0.0,55586.28,AP offset - V013,nmokoena,Approved
+JE01301,2023-06-12,5001,Cost of Goods Sold,Expense,32920.79,0.0,Invoice - V020,nmokoena,Approved
+JE01301,2023-06-12,2001,Accounts Payable,Liability,0.0,32920.79,AP offset - V020,nmokoena,Approved
+JE01302,2023-01-19,5001,Cost of Goods Sold,Expense,74280.17,0.0,Invoice - V017,nmokoena,Approved
+JE01302,2023-01-19,2001,Accounts Payable,Liability,0.0,74280.17,AP offset - V017,nmokoena,Approved
+JE01303,2023-12-17,5800,Miscellaneous Expense,Expense,20720.7,0.0,Invoice - V003,avanwyk,Approved
+JE01303,2023-12-17,2001,Accounts Payable,Liability,0.0,20720.7,AP offset - V003,avanwyk,Approved
+JE01304,2023-08-11,5300,Utilities Expense,Expense,63728.37,0.0,Invoice - V008,lpJonas,Approved
+JE01304,2023-08-11,2001,Accounts Payable,Liability,0.0,63728.37,AP offset - V008,lpJonas,Approved
+JE01305,2023-12-22,5500,Professional Fees,Expense,38269.0,0.0,Invoice - V004,avanwyk,Approved
+JE01305,2023-12-22,2001,Accounts Payable,Liability,0.0,38269.0,AP offset - V004,avanwyk,Approved
+JE01306,2023-01-29,5800,Miscellaneous Expense,Expense,4863.24,0.0,Invoice - V001,avanwyk,Approved
+JE01306,2023-01-29,2001,Accounts Payable,Liability,0.0,4863.24,AP offset - V001,avanwyk,Approved
+JE01307,2023-03-16,5500,Professional Fees,Expense,32486.65,0.0,Invoice - V012,lpJonas,Approved
+JE01307,2023-03-16,2001,Accounts Payable,Liability,0.0,32486.65,AP offset - V012,lpJonas,Approved
+JE01308,2023-12-16,5500,Professional Fees,Expense,35612.35,0.0,Invoice - V019,lpJonas,Approved
+JE01308,2023-12-16,2001,Accounts Payable,Liability,0.0,35612.35,AP offset - V019,lpJonas,Approved
+JE01309,2023-11-09,5400,Marketing and Advertising,Expense,15705.83,0.0,Invoice - V006,avanwyk,Approved
+JE01309,2023-11-09,2001,Accounts Payable,Liability,0.0,15705.83,AP offset - V006,avanwyk,Approved
+JE01310,2023-10-26,5300,Utilities Expense,Expense,42804.05,0.0,Invoice - V008,lpJonas,Approved
+JE01310,2023-10-26,2001,Accounts Payable,Liability,0.0,42804.05,AP offset - V008,lpJonas,Approved
+JE01311,2023-05-11,5300,Utilities Expense,Expense,39736.59,0.0,Invoice - V008,avanwyk,Approved
+JE01311,2023-05-11,2001,Accounts Payable,Liability,0.0,39736.59,AP offset - V008,avanwyk,Approved
+JE01312,2023-08-27,5500,Professional Fees,Expense,57014.62,0.0,Invoice - V009,avanwyk,Approved
+JE01312,2023-08-27,2001,Accounts Payable,Liability,0.0,57014.62,AP offset - V009,avanwyk,Approved
+JE01313,2023-08-15,5001,Cost of Goods Sold,Expense,14269.95,0.0,Invoice - V020,avanwyk,Approved
+JE01313,2023-08-15,2001,Accounts Payable,Liability,0.0,14269.95,AP offset - V020,avanwyk,Approved
+JE01314,2023-08-06,5200,Rent Expense,Expense,54670.85,0.0,Invoice - V010,nmokoena,Approved
+JE01314,2023-08-06,2001,Accounts Payable,Liability,0.0,54670.85,AP offset - V010,nmokoena,Approved
+JE01315,2023-06-04,5500,Professional Fees,Expense,39374.21,0.0,Invoice - V009,lpJonas,Approved
+JE01315,2023-06-04,2001,Accounts Payable,Liability,0.0,39374.21,AP offset - V009,lpJonas,Approved
+JE01316,2023-02-24,5001,Cost of Goods Sold,Expense,72680.18,0.0,Invoice - V013,lpJonas,Approved
+JE01316,2023-02-24,2001,Accounts Payable,Liability,0.0,72680.18,AP offset - V013,lpJonas,Approved
+JE01317,2023-10-22,5001,Cost of Goods Sold,Expense,49041.51,0.0,Invoice - V013,avanwyk,Approved
+JE01317,2023-10-22,2001,Accounts Payable,Liability,0.0,49041.51,AP offset - V013,avanwyk,Approved
+JE01318,2023-12-04,5200,Rent Expense,Expense,2842.93,0.0,Invoice - V010,avanwyk,Approved
+JE01318,2023-12-04,2001,Accounts Payable,Liability,0.0,2842.93,AP offset - V010,avanwyk,Approved
+JE01319,2023-12-18,5500,Professional Fees,Expense,1680.23,0.0,Invoice - V009,nmokoena,Approved
+JE01319,2023-12-18,2001,Accounts Payable,Liability,0.0,1680.23,AP offset - V009,nmokoena,Approved
+JE01320,2023-09-12,5001,Cost of Goods Sold,Expense,77491.82,0.0,Invoice - V002,avanwyk,Approved
+JE01320,2023-09-12,2001,Accounts Payable,Liability,0.0,77491.82,AP offset - V002,avanwyk,Approved
+JE01321,2023-06-30,5300,Utilities Expense,Expense,51993.46,0.0,Invoice - V008,lpJonas,Approved
+JE01321,2023-06-30,2001,Accounts Payable,Liability,0.0,51993.46,AP offset - V008,lpJonas,Approved
+JE01322,2023-12-14,5600,Travel and Entertainment,Expense,53154.86,0.0,Invoice - V007,nmokoena,Approved
+JE01322,2023-12-14,2001,Accounts Payable,Liability,0.0,53154.86,AP offset - V007,nmokoena,Approved
+JE01323,2023-11-18,5500,Professional Fees,Expense,53772.84,0.0,Invoice - V005,nmokoena,Approved
+JE01323,2023-11-18,2001,Accounts Payable,Liability,0.0,53772.84,AP offset - V005,nmokoena,Approved
+JE01324,2023-08-14,5001,Cost of Goods Sold,Expense,26950.36,0.0,Invoice - V002,lpJonas,Approved
+JE01324,2023-08-14,2001,Accounts Payable,Liability,0.0,26950.36,AP offset - V002,lpJonas,Approved
+JE01325,2023-02-16,5500,Professional Fees,Expense,62518.22,0.0,Invoice - V012,avanwyk,Approved
+JE01325,2023-02-16,2001,Accounts Payable,Liability,0.0,62518.22,AP offset - V012,avanwyk,Approved
+JE01326,2023-03-31,5600,Travel and Entertainment,Expense,63788.39,0.0,Invoice - V011,lpJonas,Approved
+JE01326,2023-03-31,2001,Accounts Payable,Liability,0.0,63788.39,AP offset - V011,lpJonas,Approved
+JE01327,2023-07-07,5500,Professional Fees,Expense,67067.08,0.0,Invoice - V005,nmokoena,Approved
+JE01327,2023-07-07,2001,Accounts Payable,Liability,0.0,67067.08,AP offset - V005,nmokoena,Approved
+JE01328,2023-03-26,5500,Professional Fees,Expense,77732.91,0.0,Invoice - V019,avanwyk,Approved
+JE01328,2023-03-26,2001,Accounts Payable,Liability,0.0,77732.91,AP offset - V019,avanwyk,Approved
+JE01329,2023-06-01,5001,Cost of Goods Sold,Expense,82260.26,0.0,Invoice - V017,nmokoena,Approved
+JE01329,2023-06-01,2001,Accounts Payable,Liability,0.0,82260.26,AP offset - V017,nmokoena,Approved
+JE01330,2023-08-28,5600,Travel and Entertainment,Expense,68555.53,0.0,Invoice - V011,lpJonas,Approved
+JE01330,2023-08-28,2001,Accounts Payable,Liability,0.0,68555.53,AP offset - V011,lpJonas,Approved
+JE01331,2023-04-26,5500,Professional Fees,Expense,64348.73,0.0,Invoice - V005,nmokoena,Approved
+JE01331,2023-04-26,2001,Accounts Payable,Liability,0.0,64348.73,AP offset - V005,nmokoena,Approved
+JE01332,2023-10-13,5001,Cost of Goods Sold,Expense,82250.66,0.0,Invoice - V013,avanwyk,Approved
+JE01332,2023-10-13,2001,Accounts Payable,Liability,0.0,82250.66,AP offset - V013,avanwyk,Approved
+JE01333,2023-01-08,5800,Miscellaneous Expense,Expense,67417.29,0.0,Invoice - V003,avanwyk,Approved
+JE01333,2023-01-08,2001,Accounts Payable,Liability,0.0,67417.29,AP offset - V003,avanwyk,Approved
+JE01334,2023-07-08,5001,Cost of Goods Sold,Expense,11381.45,0.0,Invoice - V020,nmokoena,Approved
+JE01334,2023-07-08,2001,Accounts Payable,Liability,0.0,11381.45,AP offset - V020,nmokoena,Approved
+JE01335,2023-11-23,5500,Professional Fees,Expense,50103.05,0.0,Invoice - V009,avanwyk,Approved
+JE01335,2023-11-23,2001,Accounts Payable,Liability,0.0,50103.05,AP offset - V009,avanwyk,Approved
+JE01336,2023-08-30,5500,Professional Fees,Expense,57686.27,0.0,Invoice - V004,lpJonas,Approved
+JE01336,2023-08-30,2001,Accounts Payable,Liability,0.0,57686.27,AP offset - V004,lpJonas,Approved
+JE01337,2023-11-09,5001,Cost of Goods Sold,Expense,28552.53,0.0,Invoice - V020,lpJonas,Approved
+JE01337,2023-11-09,2001,Accounts Payable,Liability,0.0,28552.53,AP offset - V020,lpJonas,Approved
+JE01338,2023-08-26,5800,Miscellaneous Expense,Expense,54373.93,0.0,Invoice - V003,nmokoena,Approved
+JE01338,2023-08-26,2001,Accounts Payable,Liability,0.0,54373.93,AP offset - V003,nmokoena,Approved
+JE01339,2023-03-01,5200,Rent Expense,Expense,55536.11,0.0,Invoice - V010,lpJonas,Approved
+JE01339,2023-03-01,2001,Accounts Payable,Liability,0.0,55536.11,AP offset - V010,lpJonas,Approved
+JE01340,2023-06-05,5001,Cost of Goods Sold,Expense,80485.97,0.0,Invoice - V002,avanwyk,Approved
+JE01340,2023-06-05,2001,Accounts Payable,Liability,0.0,80485.97,AP offset - V002,avanwyk,Approved
+JE01341,2023-10-03,5500,Professional Fees,Expense,9164.13,0.0,Invoice - V004,lpJonas,Approved
+JE01341,2023-10-03,2001,Accounts Payable,Liability,0.0,9164.13,AP offset - V004,lpJonas,Approved
+JE01342,2023-12-10,5001,Cost of Goods Sold,Expense,39106.08,0.0,Invoice - V013,nmokoena,Approved
+JE01342,2023-12-10,2001,Accounts Payable,Liability,0.0,39106.08,AP offset - V013,nmokoena,Approved
+JE01343,2023-03-21,5001,Cost of Goods Sold,Expense,36206.65,0.0,Invoice - V020,avanwyk,Approved
+JE01343,2023-03-21,2001,Accounts Payable,Liability,0.0,36206.65,AP offset - V020,avanwyk,Approved
+JE01344,2023-11-12,5500,Professional Fees,Expense,71030.22,0.0,Invoice - V004,avanwyk,Approved
+JE01344,2023-11-12,2001,Accounts Payable,Liability,0.0,71030.22,AP offset - V004,avanwyk,Approved
+JE01345,2023-07-09,5500,Professional Fees,Expense,3748.17,0.0,Invoice - V009,lpJonas,Approved
+JE01345,2023-07-09,2001,Accounts Payable,Liability,0.0,3748.17,AP offset - V009,lpJonas,Approved
+JE01346,2023-05-01,5500,Professional Fees,Expense,38354.45,0.0,Invoice - V016,avanwyk,Approved
+JE01346,2023-05-01,2001,Accounts Payable,Liability,0.0,38354.45,AP offset - V016,avanwyk,Approved
+JE01347,2023-07-08,5500,Professional Fees,Expense,83397.93,0.0,Invoice - V004,nmokoena,Approved
+JE01347,2023-07-08,2001,Accounts Payable,Liability,0.0,83397.93,AP offset - V004,nmokoena,Approved
+JE01348,2023-05-22,5500,Professional Fees,Expense,6086.21,0.0,Invoice - V012,lpJonas,Approved
+JE01348,2023-05-22,2001,Accounts Payable,Liability,0.0,6086.21,AP offset - V012,lpJonas,Approved
+JE01349,2023-08-21,5500,Professional Fees,Expense,80716.91,0.0,Invoice - V004,lpJonas,Approved
+JE01349,2023-08-21,2001,Accounts Payable,Liability,0.0,80716.91,AP offset - V004,lpJonas,Approved
+JE01350,2023-11-02,5600,Travel and Entertainment,Expense,54903.18,0.0,Invoice - V007,lpJonas,Approved
+JE01350,2023-11-02,2001,Accounts Payable,Liability,0.0,54903.18,AP offset - V007,lpJonas,Approved
+JE01351,2023-05-05,5001,Cost of Goods Sold,Expense,67090.75,0.0,Invoice - V002,lpJonas,Approved
+JE01351,2023-05-05,2001,Accounts Payable,Liability,0.0,67090.75,AP offset - V002,lpJonas,Approved
+JE01352,2023-10-11,5600,Travel and Entertainment,Expense,6763.25,0.0,Invoice - V007,lpJonas,Approved
+JE01352,2023-10-11,2001,Accounts Payable,Liability,0.0,6763.25,AP offset - V007,lpJonas,Approved
+JE01353,2023-04-30,5600,Travel and Entertainment,Expense,69296.45,0.0,Invoice - V007,avanwyk,Approved
+JE01353,2023-04-30,2001,Accounts Payable,Liability,0.0,69296.45,AP offset - V007,avanwyk,Approved
+JE01354,2023-11-02,5500,Professional Fees,Expense,67246.08,0.0,Invoice - V005,lpJonas,Approved
+JE01354,2023-11-02,2001,Accounts Payable,Liability,0.0,67246.08,AP offset - V005,lpJonas,Approved
+JE01355,2023-03-16,5500,Professional Fees,Expense,73106.11,0.0,Invoice - V009,lpJonas,Approved
+JE01355,2023-03-16,2001,Accounts Payable,Liability,0.0,73106.11,AP offset - V009,lpJonas,Approved
+JE01356,2023-03-31,5001,Cost of Goods Sold,Expense,22054.95,0.0,Invoice - V020,lpJonas,Approved
+JE01356,2023-03-31,2001,Accounts Payable,Liability,0.0,22054.95,AP offset - V020,lpJonas,Approved
+JE01357,2023-07-03,5800,Miscellaneous Expense,Expense,12071.47,0.0,Invoice - V001,lpJonas,Approved
+JE01357,2023-07-03,2001,Accounts Payable,Liability,0.0,12071.47,AP offset - V001,lpJonas,Approved
+JE01358,2023-05-16,5600,Travel and Entertainment,Expense,2325.61,0.0,Invoice - V011,lpJonas,Approved
+JE01358,2023-05-16,2001,Accounts Payable,Liability,0.0,2325.61,AP offset - V011,lpJonas,Approved
+JE01359,2023-09-27,5500,Professional Fees,Expense,63304.32,0.0,Invoice - V005,lpJonas,Approved
+JE01359,2023-09-27,2001,Accounts Payable,Liability,0.0,63304.32,AP offset - V005,lpJonas,Approved
+JE01360,2023-12-02,5800,Miscellaneous Expense,Expense,7542.32,0.0,Misc adjustment,lpJonas,Approved
+JE01360,2023-12-02,1001,Cash and Cash Equivalents,Asset,0.0,7542.32,Cash offset,lpJonas,Approved
+JE01361,2023-07-22,5800,Miscellaneous Expense,Expense,36120.68,0.0,Misc adjustment,lpJonas,Approved
+JE01361,2023-07-22,1001,Cash and Cash Equivalents,Asset,0.0,36120.68,Cash offset,lpJonas,Approved
+JE01362,2023-08-19,5800,Miscellaneous Expense,Expense,28746.64,0.0,Misc adjustment,lpJonas,Approved
+JE01362,2023-08-19,1001,Cash and Cash Equivalents,Asset,0.0,28746.64,Cash offset,lpJonas,Approved
+JE01363,2023-07-22,5800,Miscellaneous Expense,Expense,25153.55,0.0,Misc adjustment,lpJonas,Approved
+JE01363,2023-07-22,1001,Cash and Cash Equivalents,Asset,0.0,25153.55,Cash offset,lpJonas,Approved
+JE01364,2023-10-01,5800,Miscellaneous Expense,Expense,6734.6,0.0,Misc adjustment,lpJonas,Approved
+JE01364,2023-10-01,1001,Cash and Cash Equivalents,Asset,0.0,6734.6,Cash offset,lpJonas,Approved
+JE01365,2023-12-04,5600,Travel and Entertainment,Expense,50000.0,0.0,Travel expense claim,nmokoena,Approved
+JE01365,2023-12-04,2001,Accounts Payable,Liability,0.0,50000.0,AP offset,nmokoena,Approved
+JE01366,2023-09-24,5600,Travel and Entertainment,Expense,100000.0,0.0,Travel expense claim,nmokoena,Approved
+JE01366,2023-09-24,2001,Accounts Payable,Liability,0.0,100000.0,AP offset,nmokoena,Approved
+JE01367,2023-06-04,5600,Travel and Entertainment,Expense,75000.0,0.0,Travel expense claim,nmokoena,Approved
+JE01367,2023-06-04,2001,Accounts Payable,Liability,0.0,75000.0,AP offset,nmokoena,Approved
+JE01368,2023-08-23,5600,Travel and Entertainment,Expense,25000.0,0.0,Travel expense claim,nmokoena,Approved
+JE01368,2023-08-23,2001,Accounts Payable,Liability,0.0,25000.0,AP offset,nmokoena,Approved
+JE01369,2023-11-26,5600,Travel and Entertainment,Expense,200000.0,0.0,Travel expense claim,nmokoena,Approved
+JE01369,2023-11-26,2001,Accounts Payable,Liability,0.0,200000.0,AP offset,nmokoena,Approved
+JE01370,2023-07-08,5500,Professional Fees,Expense,44866.03,0.0,Consulting fees - V021,lpJonas,Approved
+JE01370,2023-07-08,2001,Accounts Payable,Liability,0.0,44866.03,AP offset - V021,lpJonas,Approved
+JE01371,2023-10-31,5500,Professional Fees,Expense,107783.88,0.0,Consulting fees - V021,lpJonas,Approved
+JE01371,2023-10-31,2001,Accounts Payable,Liability,0.0,107783.88,AP offset - V021,lpJonas,Approved
+JE01372,2023-10-18,5500,Professional Fees,Expense,94887.8,0.0,Consulting fees - V021,lpJonas,Approved
+JE01372,2023-10-18,2001,Accounts Payable,Liability,0.0,94887.8,AP offset - V021,lpJonas,Approved
+JE01373,2023-11-03,5500,Professional Fees,Expense,96992.11,0.0,Consulting fees - V021,lpJonas,Approved
+JE01373,2023-11-03,2001,Accounts Payable,Liability,0.0,96992.11,AP offset - V021,lpJonas,Approved
+JE01374,2023-10-22,5500,Professional Fees,Expense,45879.26,0.0,Consulting fees - V021,lpJonas,Approved
+JE01374,2023-10-22,2001,Accounts Payable,Liability,0.0,45879.26,AP offset - V021,lpJonas,Approved
+JE01375,2023-07-21,5500,Professional Fees,Expense,65768.95,0.0,Consulting fees - V021,lpJonas,Approved
+JE01375,2023-07-21,2001,Accounts Payable,Liability,0.0,65768.95,AP offset - V021,lpJonas,Approved
+JE01376,2023-06-15,5800,Miscellaneous Expense,Expense,9445.01,0.0,Misc supplier - V014,avanwyk,Approved
+JE01376,2023-06-15,2001,Accounts Payable,Liability,0.0,9445.01,AP offset - V014,avanwyk,Approved
+JE01377,2023-08-19,5800,Miscellaneous Expense,Expense,21734.98,0.0,Misc supplier - V014,avanwyk,Approved
+JE01377,2023-08-19,2001,Accounts Payable,Liability,0.0,21734.98,AP offset - V014,avanwyk,Approved
+JE01378,2023-09-14,5800,Miscellaneous Expense,Expense,16379.9,0.0,Misc supplier - V014,avanwyk,Approved
+JE01378,2023-09-14,2001,Accounts Payable,Liability,0.0,16379.9,AP offset - V014,avanwyk,Approved
+JE01379,2023-11-02,5800,Miscellaneous Expense,Expense,8897.24,0.0,,mkhumalo,Approved
+JE01379,2023-11-02,1001,Cash and Cash Equivalents,Asset,0.0,8897.24,,mkhumalo,Approved
+JE01380,2023-08-21,5800,Miscellaneous Expense,Expense,8572.16,0.0,,mkhumalo,Approved
+JE01380,2023-08-21,1001,Cash and Cash Equivalents,Asset,0.0,8572.16,,mkhumalo,Approved
+JE01381,2023-08-09,5800,Miscellaneous Expense,Expense,3289.32,0.0,,mkhumalo,Approved
+JE01381,2023-08-09,1001,Cash and Cash Equivalents,Asset,0.0,3289.32,,mkhumalo,Approved
+JE01382,2023-12-26,5800,Miscellaneous Expense,Expense,3487.38,0.0,,mkhumalo,Approved
+JE01382,2023-12-26,1001,Cash and Cash Equivalents,Asset,0.0,3487.38,,mkhumalo,Approved

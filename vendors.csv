@@ -1,0 +1,22 @@
+vendor_id,vendor_name,city,status,registration_date,country
+V001,Apex Office Supplies,Cape Town,Active,2020-03-15,ZA
+V002,BlueSky Logistics,Johannesburg,Active,2019-07-22,ZA
+V003,Coastal Cleaning Co,Cape Town,Active,2021-01-10,ZA
+V004,Delta Tech Solutions,Sandton,Active,2018-11-05,ZA
+V005,Eagle Consulting Group,Durban,Active,2022-02-28,ZA
+V006,FreshPrint Media,Cape Town,Active,2020-09-14,ZA
+V007,Global Travel Services,Johannesburg,Active,2017-06-30,ZA
+V008,Harbour Utilities Ltd,Cape Town,Active,2019-03-18,ZA
+V009,Innovate IT Support,Pretoria,Active,2021-08-01,ZA
+V010,JKL Property Rentals,Cape Town,Active,2016-12-01,ZA
+V011,Kubu Catering,Stellenbosch,Active,2022-05-19,ZA
+V012,Landmark Legal,Cape Town,Active,2015-04-07,ZA
+V013,Metro Freight,Johannesburg,Active,2020-01-25,ZA
+V014,Nexus Recruitment,Cape Town,Inactive,2018-07-11,ZA
+V015,Oceanic Marketing,Cape Town,Active,2023-03-01,ZA
+V016,PrecisionAudit Tools,Sandton,Active,2021-10-22,ZA
+V017,QualityFirst Suppliers,Durban,Active,2019-06-14,ZA
+V018,RedRock Construction,Cape Town,Inactive,2017-02-28,ZA
+V019,Summit Software,Cape Town,Active,2022-11-05,ZA
+V020,TradeHub Electronics,Johannesburg,Active,2020-08-17,ZA
+V021,ZZ Holdings,,Active,2023-06-15,ZA
