@@ -1,0 +1,23 @@
+account_code,account_name,account_type,sub_category,opening_balance,total_debits,total_credits,net_balance,closing_balance,period_end
+1001,Cash and Cash Equivalents,Asset,Current Asset,1500000.0,0.0,10298100.63,-10298100.63,-8798100.63,2023-12-31
+1100,Accounts Receivable,Asset,Current Asset,3200000.0,20947878.4,0.0,20947878.4,24147878.4,2023-12-31
+1200,Prepaid Expenses,Asset,Current Asset,180000.0,0.0,0.0,0.0,180000.0,2023-12-31
+1500,Property Plant and Equipment,Asset,Non-Current Asset,4800000.0,0.0,0.0,0.0,4800000.0,2023-12-31
+1600,Accumulated Depreciation,Asset,Non-Current Asset,-960000.0,0.0,150000.0,-150000.0,-1110000.0,2023-12-31
+2001,Accounts Payable,Liability,Current Liability,-1100000.0,0.0,19584267.66,-19584267.66,-20684267.66,2023-12-31
+2100,Accrued Liabilities,Liability,Current Liability,-250000.0,0.0,0.0,0.0,-250000.0,2023-12-31
+2200,Short-Term Borrowings,Liability,Current Liability,-500000.0,0.0,0.0,0.0,-500000.0,2023-12-31
+2500,Long-Term Debt,Liability,Non-Current Liability,-2000000.0,0.0,0.0,0.0,-2000000.0,2023-12-31
+3001,Share Capital,Equity,Equity,-3000000.0,0.0,0.0,0.0,-3000000.0,2023-12-31
+3100,Retained Earnings,Equity,Equity,-1870000.0,0.0,0.0,0.0,-1870000.0,2023-12-31
+4001,Revenue - Product Sales,Revenue,Revenue,0.0,0.0,17416992.93,-17416992.93,-17416992.93,2023-12-31
+4100,Revenue - Service Fees,Revenue,Revenue,0.0,0.0,3530885.47,-3530885.47,-3530885.47,2023-12-31
+5001,Cost of Goods Sold,Expense,Cost of Sales,0.0,13182335.58,0.0,13182335.58,13182335.58,2023-12-31
+5100,Salaries and Wages,Expense,Operating Expense,0.0,5448319.19,0.0,5448319.19,5448319.19,2023-12-31
+5200,Rent Expense,Expense,Operating Expense,0.0,1212987.42,0.0,1212987.42,1212987.42,2023-12-31
+5300,Utilities Expense,Expense,Operating Expense,0.0,722010.15,0.0,722010.15,722010.15,2023-12-31
+5400,Marketing and Advertising,Expense,Operating Expense,0.0,832890.01,0.0,832890.01,832890.01,2023-12-31
+5500,Professional Fees,Expense,Operating Expense,0.0,4810247.16,0.0,4810247.16,4810247.16,2023-12-31
+5600,Travel and Entertainment,Expense,Operating Expense,0.0,1888092.84,0.0,1888092.84,1888092.84,2023-12-31
+5700,Depreciation Expense,Expense,Operating Expense,0.0,150000.0,0.0,150000.0,150000.0,2023-12-31
+5800,Miscellaneous Expense,Expense,Operating Expense,0.0,1785485.94,0.0,1785485.94,1785485.94,2023-12-31
