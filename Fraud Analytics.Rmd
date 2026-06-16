@@ -1,0 +1,347 @@
+---
+title: "Financial data analytics"
+author: "Lukhanyo Jonas"
+date: "2026-06-16"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+
+```{r}
+###Loading libraries
+install.packages("tidyverse")
+install.packages("tidyr")
+install.packages("lubridate")
+install.packages("ggplot2")
+install.packages("naniar")
+install.packages("visdat")
+
+library(tidyverse)
+library(tidyr)
+library(lubridate)
+library(ggplot2)
+library(naniar)
+library(visdat)
+
+install.packages("tidymodels")
+library(tidymodels)
+
+
+
+
+```
+
+***Undertanding the General Ledger***
+
+```{r}
+summary(gl)
+```
+```{r}
+###Check datatypes
+sapply(gl,typeof)
+```
+```{r}
+###First few lines of the data
+head(gl)
+```
+
+
+
+
+```{r}
+###Journal entries balance to zero
+
+gl%>%filter(
+  is.na(account_code)
+)
+sum(is.na(gl$debit_amount))
+sum(is.na(gl$credit_amount))
+```
+```{r}
+###Create the total amount column as difference of debits and credits.
+gl$total_amount<-gl$debit_amount-gl$credit_amount
+```
+
+```{r}
+###Create report_type column based on account_type.
+gl$report_type<-ifelse(gl$account_type %in% c("Asset","Liability"),"BS","IS")
+```
+
+
+
+***Undertanding the Trial balance***
+```{r}
+head(tb)
+```
+***To find out if our general ledger is indeed complete.***
+```{r}
+###Condence the general ledger, selecting total_amount per account_code as gl_movement.
+gl_summarised<-.GlobalEnv$gl %>% group_by(account_code)%>%
+  summarise(gl_movement=sum(total_amount),
+            .groups = 'drop')%>%select(account_code,gl_movement)
+
+###Reconcile the general ledger to the trial balance using a full_join.
+full_recon<- gl_summarised%>%full_join(tb,by='account_code')
+full_recon
+```
+
+```{r}
+###Adding the report_type column to the reconciled dataset
+full_recon$report_type<-ifelse(full_recon$account_type %in% c("Asset","Liability"),"BS","IS")
+
+###Does the GL reconcile to the trial balance?. See difference column.
+full_recon$Difference<-ifelse(
+  full_recon$report_type %in% "BS",full_recon$gl_movement-as.integer(full_recon$net_balance),
+  full_recon$gl_movement-full_recon$closing_balance
+)
+full_recon
+
+```
+The General Ledger does reconcile to the Trial Balance, NAs in the Difference column belong to dormant accounts.
+
+```{r}
+###Dormant accounts
+
+non_transacting_acounts<-full_recon%>%filter(is.na(Difference))%>%
+  select(account_code,account_name,opening_balance,closing_balance)
+non_transacting_acounts
+
+```
+Dormant accounts will always have opening_balance equal to closing balance.
+
+
+***Vendors and the General leger datasets.***
+
+```{r}
+### To find total spend per vendor, see total_credit and total_debit columns 
+vendor_transactions_gl<-gl%>%filter(str_ends(description,"V[0-9]+")   ###Filtering for rows described as vendor transactions.
+                                 )%>%group_by(vendor_id = str_extract(description,"V[0-9]+"))%>%summarise(total_debit=sum(debit_amount),
+                                                                                              total_credit = sum(credit_amount),
+                                                                                              total_spend = sum(debit_amount) - sum(credit_amount)) 
+                                                                                              
+vendor_transactions_gl
+ 
+```
+
+```{r}
+### See table above(row 10), vendor_id "V010" shows a clear difference in total_debit and total_credit. Therefore we perform a root-cause analysis.
+target_journals <-gl%>%filter(endsWith(description,"V010"))%>%distinct(je_number)%>%pull(je_number)
+
+full_transaction_trail<- gl%>%filter(je_number %in% target_journals)%>%arrange(je_number,debit_amount)
+
+full_transaction_trail
+```
+
+This shows that the company paid a massive lump-sum rent amount in advance and logged it to the balance sheet.
+Each month, a journal entry was made to debit Rent Expense (R38500) and credit Prepayments(R38500) to recognise the expense over time.
+
+```{r}
+### Joining the general ledger to the vendors dataset using a left_join, to get a view of how much was spent on each vendor (see total_debit/total credit column).
+vendors_gl <- vendors%>%left_join(vendor_transactions_gl,by ="vendor_id")
+vendors_gl
+
+```
+***Working on the Journal Enntries Review dataset***.
+
+```{r}
+je_review_registry
+```
+```{r}
+### It is immediately evident from the table above, that the risk_rating column is already missing values. Let's explore!!!
+colSums(je_review_registry=="") 
+```
+
+There are 84 empty cells in the risk_rating column and it is the only column with missing columns.
+
+
+To make use of the journal entries review dataset, we first need to reduce the general ledger to one row per journal entry
+
+```{r}
+
+### Transform the general ledger
+
+gl_transformed<-gl%>%mutate(amount=pmax(debit_amount,credit_amount))%>%
+  group_by(je_number,posting_date)%>%summarise(
+    debits=sum(debit_amount,na.rm = TRUE),
+    credits=sum(credit_amount,na.rm = TRUE),
+    #These differ per leg (e.g. one leg is Expense, the other is AP). We take the values from the leg with the larger amount.
+    account_type = account_type[which.max(amount)],
+    account_code = account_code[which.max(amount)],
+    account_name = account_code[which.max(amount)],
+    ###For these rows, both legs should be the same.
+    ,posted_by = posted_by[which.max(amount)],
+    description = description[which.max(amount)],
+    .groups= "drop"
+  )
+
+###Create a new column to denote journals passed on a weekend.
+gl_transformed$weekend_journal<-as.integer(
+  format(as.Date(gl_transformed$posting_date),"%w") %in% c("0","6")
+)
+
+gl_transformed
+
+
+```
+
+To make use of this dataset, along with the general ledger, 
+
+```{r}
+### Join the transformed general ledger to the journal entries dataset on je_number and select the columns of interest only.
+
+gl_je_review<-je_review_registry%>%left_join(
+  gl_transformed,by = "je_number"
+)%>%select(je_number,business_unit,manual_journal_flag,
+           supporting_doc_attached,prior_period_adjustment,
+           segregation_of_duties_flag,debits,credits,
+           account_type,description,weekend_journal,risk_rating)%>%
+  mutate(risk_rating=na_if(risk_rating,""))%>%               #Use NA for the empty cells in Risk Rating
+  mutate(risk_rating=as.factor(risk_rating))                 #Change datatype for risk_rating to factor, this will be important for our classification model.
+
+
+gl_je_review
+```
+
+***MACHINE LEARNING - PREDICTING risk_rating***
+A decision tree was chosen because risk_rating is a three-class categorical outcome, and trees handle mixed predictor types (categorical and numeric) without extensive preprocessing. More importantly, in an audit context, interpretability matters, a tree produces human-readable split rules that can be explained to non-technical stakeholders, unlike black-box alternatives such as Random Forest or XGBoost.
+
+
+
+```{r}
+###Splitting the dataset into training and testing datasets.
+###The data will be trained on only the labelled dataset and tested on the unlabelled dataset.
+
+set.seed(123)
+
+train<-gl_je_review%>%filter(risk_rating!='')
+test<-gl_je_review%>%filter(is.na(risk_rating))
+```
+
+
+Specifying the model and tuning.
+```{r}
+
+
+set.seed(234)
+train_folds<-bootstraps(train,strata = risk_rating)
+train_folds
+
+###Specifications for the decision-tree model
+tree_spec<-decision_tree(
+            cost_complexity = tune(),
+            tree_depth = tune(),
+            min_n = tune()
+          )%>%set_mode("classification")%>%set_engine("rpart")
+
+tree_grid<-grid_regular(cost_complexity(),
+                        min_n(),
+                        tree_depth(),
+                        levels=4)
+tree_grid
+
+```
+25 bootstrap splits are created and looped through.
+64 hyperparameter combinations are evaluated for each split.
+The output should be an average performance across the 25 folds. This is important to avoid overfitting.
+
+
+
+```{r}
+install.packages("doParallel")
+library(doParallel)
+
+doParallel::registerDoParallel()
+
+set.seed(345)
+tree_rs<-tune_grid(
+  tree_spec,
+  risk_rating~business_unit+manual_journal_flag+supporting_doc_attached+prior_period_adjustment+
+    segregation_of_duties_flag+debits+credits+account_type+weekend_journal,
+  resamples = train_folds,
+  grid = tree_grid,
+  metrics = metric_set(
+    accuracy,roc_auc,sensitivity,specificity
+  )
+)
+```
+
+```{r}
+###Model evalualtion
+show_best(tree_rs)
+```
+
+```{r}
+autoplot(
+  tree_rs)
+```
+Analysing the chart
+
+The best configuration is depth 5 or 10, small node size (2–14), low cost-complexity (~1e-08 to 1e-05). That's where green and purple peak across all four metrics.
+Going through each metric:
+
+Accuracy (~0.85–0.86) — depth 5 and 10 perform similarly well at low cost-complexity. Performance drops sharply once cost-complexity hits 1e-02, meaning heavy pruning hurts the model.
+
+ROC AUC (~0.89–0.90) — strongest signal in the whole plot. Depth 5 and 10 at low cost-complexity and small node size clearly outperform depth 1 (~0.83) and depth 15 at high cost-complexity. This confirms the model has genuine discriminative power across the three classes.
+
+Sensitivity (~0.81) — how well the model catches true positives across classes. Depth 1 (pink) is consistently the worst at ~0.60, confirming a shallow tree misses too much. Depth 5/10 hold steady around 0.81.
+
+Specificity (~0.92) — how well the model avoids false positives. Consistently high across most configurations, meaning when the model predicts Low it's usually right.
+
+
+
+
+
+```{r}
+###selecting a model
+simple_tree<-select_by_one_std_err(tree_rs,-cost_complexity,metric = "roc_auc")
+
+final_tree<-finalize_model(tree_spec,simple_tree)
+
+final_fit<-fit(final_tree,risk_rating~business_unit+manual_journal_flag+supporting_doc_attached+prior_period_adjustment+
+      segregation_of_duties_flag+debits+credits+account_type+weekend_journal,
+    data=train)
+
+```
+
+```{r}
+install.packages("rpart.plot")
+library(rpart.plot)
+
+final_fit%>%
+  extract_fit_engine()%>%
+  rpart.plot::rpart.plot()
+```
+
+```{r}
+train_preds<-predict(final_fit,new_data = train)%>%
+  bind_cols(train %>% select(risk_rating)) %>%
+  rename(truth = risk_rating, estimate = .pred_class)
+```
+
+```{r}
+##Accuracy
+accuracy(train_preds, truth, estimate)
+```
+What risk_rating Represents and Why ~22% Is Missing
+
+risk_rating reflects the assessed fraud and control risk (Low, Medium, High) of each journal entry, based on factors such as manual posting, missing documentation, segregation of duties concerns and other attributes. The 22% missing values (84 of 383 entries) reflect a common audit reality, not all entries are reviewed within a period due to capacity constraints or late-arriving transactions. The model uses the 299 rated entries to predict risk ratings for the remaining 84, enabling reviewers to prioritise unassessed work.
+
+```{r}
+# Confusion matrix
+conf_mat(train_preds, truth, estimate)
+```
+
+Why Training Accuracy Isn't the Full Picture.
+
+90% training accuracy is encouraging but optimistic, the model was evaluated on data it was already fitted on. The confusion matrix tells a more honest story: recall for Low and Medium entries is ~94%, but the model only correctly identifies 34 of 49 true High-risk entries (recall ~69%), misclassifying 14 as Medium and one as Low. In a fraud context, missing a High-risk entry is the most costly error type and should be explicitly acknowledged alongside the headline accuracy figure.
+
+
+How the Predictions Should Be Used.
+
+The 84 predictions are a prioritisation tool, not a final determination. Entries predicted as High should be reviewed first, Medium second, Low deprioritised. Given the model's tendency to underestimate High-risk entries, reviewers should apply extra scrutiny to Medium predictions that also show known risk indicators. Human judgement remains the final step.
+
