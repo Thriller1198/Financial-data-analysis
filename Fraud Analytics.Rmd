@@ -32,6 +32,12 @@ install.packages("tidymodels")
 library(tidymodels)
 
 
+###Pulling data from my Github repository.
+gl<-read.csv("https://raw.githubusercontent.com/Thriller1198/Financial-data-analysis/refs/heads/main/general_ledger.csv")
+tb<-read.csv("https://raw.githubusercontent.com/Thriller1198/Financial-data-analysis/refs/heads/main/trial_balance.csv")
+vendors<-read.csv("https://raw.githubusercontent.com/Thriller1198/Financial-data-analysis/refs/heads/main/vendors.csv")
+je_review_registry<-read.csv("https://raw.githubusercontent.com/Thriller1198/Financial-data-analysis/refs/heads/main/je_review_register.csv")
+
 
 
 ```
